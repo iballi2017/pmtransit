@@ -1,0 +1,72 @@
+body {
+  /* background-color: red; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  text-indent: -100000px;
+  padding: 0;
+  h2 {
+    // background-image: url("../images/PMT-brand-logo.png");
+    background-image: url("../images/brand-logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 120px;
+    height: 40px;
+  }
+}
+
+.hero {
+  height: 80vh;
+  //   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+  // background-color: #202020;
+  //   background-color: rgba(0, 0, 0, 0.4);
+  //   background: linear-gradient(270deg, #1a1a1a 13.51%, rgba(196, 196, 196, 0) 115.59%);
+  background-image: url(../images/hero-banner.png);
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.how-it-works {
+  height: 70vh;
+  background-image: url("../images/buses-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .content-area {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  ul {
+    counter-reset: counter-name;
+    font-size: 1.3rem;
+
+    li {
+      list-style: none;
+      position: relative;
+      margin-bottom: 2.5em;
+      padding-left: 1em;
+    }
+
+    li::before {
+      counter-increment: counter-name;
+      content: counter(counter-name) "  ";
+      position: absolute;
+      left: -2.5rem;
+      top: -0.2em;
+      //   background-color: #fff;
+      width: 2em;
+      height: 2em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100%;
+      border: 3px solid #fff;
+      color: #fff;
+    }
+  }
+}
