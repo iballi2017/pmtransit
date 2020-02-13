@@ -1,16 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap");
+
+/********
+    scss variables
+********/
+$OneViewport: 100vh;
+$greenishColor: #4d9f45;
+$greyishColor: #dedede;
+$white: #ffffff;
+$lightBlue: #2589bd;
+
 body {
-  /* background-color: red; */
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
 }
 
 * {
   box-sizing: border-box;
 }
 
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 1px solid;
+  border-color: #ccc #ccc #bbb;
+  border-radius: 3px;
+  //   background: #e6e6e6;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  font-size: 0.75rem;
+  line-height: 1;
+  padding: 0.6em 1em 0.4em;
+  background-color: red !important;
+
+  //   &:focus {
+  //     outline: 0;
+  //     inset: 0;
+  //     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+  //   }
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  border-color: #ccc #bbb #aaa;
+}
+
+button:active,
+button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+  //   border-color: #aaa #bbb #bbb;
+  outline: 0;
+  inset: 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.form-control,
+.custom-select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+  color: rgb(19, 38, 102);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 3px;
+
+  //   ........
+
+  //   border-radius: 0;
+  border: 1px solid $greenishColor;
+  background-color: unset;
+
+  &:focus {
+    border: 1px solid $greenishColor;
+    outline: 0;
+    inset: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.custom-select,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+  color: $greenishColor;
+}
+
+select {
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 100%;
+}
+
+//........................................
+
+/*......................................................*/
+/*...................... Brand-logo style considering screen readers ......................*/
 .navbar-brand {
   text-indent: -100000px;
   padding: 0;
   h2 {
-    // background-image: url("../images/PMT-brand-logo.png");
     background-image: url("../images/brand-logo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -19,12 +155,38 @@ body {
   }
 }
 
+/*......................................................*/
+/*...................... Nav-links animation ......................*/
+
+.main-animate-nav-item {
+  //   letter-spacing: 0.12em;
+  display: inline-block;
+  position: relative;
+}
+
+.main-animate-nav-item:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: $greenishColor;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.main-animate-nav-item:hover:after {
+  width: 100%;
+  left: 0;
+}
+.main-animate-nav-item.active {
+  border-bottom: 3px solid $greenishColor;
+}
+
 .hero {
-  height: 80vh;
-  //   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
-  // background-color: #202020;
-  //   background-color: rgba(0, 0, 0, 0.4);
-  //   background: linear-gradient(270deg, #1a1a1a 13.51%, rgba(196, 196, 196, 0) 115.59%);
+  height: 80/100 * $OneViewport;
   background-image: url(../images/hero-banner.png);
   background-blend-mode: soft-light;
   background-size: cover;
@@ -58,15 +220,70 @@ body {
       position: absolute;
       left: -2.5rem;
       top: -0.2em;
-      //   background-color: #fff;
       width: 2em;
       height: 2em;
       display: flex;
       justify-content: center;
       align-items: center;
       border-radius: 100%;
-      border: 3px solid #fff;
-      color: #fff;
+      border: 3px solid $white;
+      color: $white;
+    }
+  }
+}
+
+/*......................................................*/
+/*...................... Hero tab ......................*/
+
+.hero-tab-main-content-wrapper {
+  background-color: $white;
+}
+
+.hero-tab-nav-links {
+  background-color: #f0f0f0;
+  color: $greenishColor;
+  border-radius: 0 !important;
+  &.active {
+    background-color: $greenishColor !important;
+    color: $white;
+  }
+}
+
+// .hero-main-nav-pills{
+// }
+
+.book-a-seat-tab-nav-links {
+  background-color: $greyishColor;
+  box-shadow: 10px 5px 10px rgba(32, 32, 32, 0.3);
+  color: $greenishColor;
+
+  &.active {
+    background-color: $lightBlue !important;
+    box-shadow: unset !important;
+  }
+}
+
+/*......................................................*/
+/*...................... footer ......................*/
+footer {
+  background-color: #0c0c0c;
+  color: $white;
+
+  ul {
+    padding: 0;
+    li {
+      list-style: none;
+      margin-top: 1em;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: red;
+
+    &:hover,
+    &:focus {
+      color: $white;
     }
   }
 }
