@@ -8,7 +8,10 @@
     <!-- font family -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900&display=swap" rel="stylesheet">
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="./css/animate.css">
     <!-- Bootstrap 4.4.1 -->
     <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.min.css">
     <!-- custom css -->
@@ -16,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top">
 
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -58,22 +61,22 @@
 
     <main>
         <section class="hero">
-
-            <!-- <div class="content-top" style="height: 60vh">
-
+            <div class="container">
+                <div class="text-content-top">
+                    <div class="hero-title">
+                        <h3 class="animated fadeInDown delay-1s">Fast and convenient</h3>
+                        <h1 class="animated fadeInUp delay-1s">Everywhere, anytime</h1>
+                    </div>
+                </div>
             </div>
 
-            <div class="content-bottom text-center" style="height: 40vh;">
 
-
-
-            </div> -->
         </section>
-        <div class="container" style="margin-top: -200px">
+        <div class="container hero-booking-form">
             <div class="row">
                 <div class="col-12 col-md-8 offset-md-2">
-                    <ul class="nav row nav-pills col-block hero-main-nav-pills no-gutters" id="pills-tab" role="tablist"
-                        style="margin: 0 auto">
+                    <ul class="nav row nav-pills col-block hero-main-nav-pills no-gutters" id="pills-tab"
+                        role="tablist">
                         <li class="nav-item col-12 col-md-6">
                             <a class="nav-link active text-center hero-tab-nav-links btn-block"
                                 id="pills-seat-booking-tab" data-toggle="pill" href="#pills-seat-booking" role="tab"
@@ -213,16 +216,16 @@
                                     <div class="form-group col">
                                         <label for="travellingFrom">Travelling From</label>
                                         <select id="travellingFrom" class="form-control">
-                                            <option selected>Choose...</option>
-                                            <option>...</option>
+                                            <option selected>Abuja</option>
+                                            <option>Lagos</option>
                                         </select>
                                     </div>
 
                                     <div class="form-group col">
                                         <label for="travellingTo">Travelling To</label>
                                         <select id="travellingTo" class="form-control">
-                                            <option selected>Choose...</option>
-                                            <option>...</option>
+                                            <option selected>Lagos</option>
+                                            <option>Abuja</option>
                                         </select>
                                     </div>
                                 </div>
@@ -244,23 +247,45 @@
             </div>
         </div>
 
-        <section class="why-choose-us">
+        <section class="why-choose-us my-5">
             <div class="container">
                 <div class="row">
-                    <div class="col ">
-                        <h2 class="text-center">Why Choose us</h2>
+                    <div class="col">
+                        <h2 class="text-center section-title mb-5">Why Choose us</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <ul class="why-choose-us-list">
+                            <li><img src="./images/punctuality.png" class="img img-fluid" alt="">
+                                <p>Puntuality</p>
+                            </li>
+                            <li><img src="./images/air-condition.png" class="img img-fluid" alt="">
+                                <p>Air Conditioned
+                                    Buses
+                                </p>
+                            </li>
+                            <li><img src="./images/comfort.png" class="img img-fluid" alt="">
+                                <p>Refreshment</p>
+                            </li>
+                            <li><img src="./images/refreshment.png" class="img img-fluid" alt="">
+                                <p>Comfortable seats
+                                    & leg space</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="how-it-works">
-            <div class="container" style="height: 100%;">
+            <div class="container-fluid" style="height: 100%;">
                 <div class="row" style="height: 100%;">
                     <div class="col-12 col-md-6 offset-md-6 content-area pl-5" style="height: 100%;">
-                        <div style="height: 100%;color: #fff; display: flex; align-items: center;">
+                        <div class="how-it-works-inner">
                             <div>
-                                <h2 class="my-5">How it works</h2>
+                                <h2 class="my-5 section-title">How it works</h2>
 
                                 <ul class="">
                                     <li>Select location & Destination and dates</li>
@@ -274,11 +299,10 @@
             </div>
         </section>
 
-        <section class="bg-secondary">
-            <div class="container py-3 text-white"
-                style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-                <p>Having any problem booking? Let us know ! ! !</p>
-                <a href="#" class="btn btn-success">CONTACT US</a>
+        <section class="problem-then-contact-us">
+            <div class="container py-4 text-white problem-then-contact-us-inner">
+                <h4>Having Any Problem Booking? Let Us Know ! ! !</h4>
+                <a href="#" class="btn btn-success btn-lg">CONTACT US</a>
             </div>
         </section>
 
@@ -347,13 +371,17 @@
                     <ul>
                         <li>SOCIAL MEDIA</li>
                         <li>
-                            <a href="#">Twitter</a>
-                        </li>
-                        <li>
-                            <a href="#">Facebook</a>
-                        </li>
-                        <li>
-                            <a href="#">Instagram</a>
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f social-icon"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -368,14 +396,14 @@
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
     <script src="./js/app.js"></script>
 </body>
 
