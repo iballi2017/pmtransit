@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
     <!-- Bootstrap 4.4.1 -->
     <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
-    <!-- custom css -->
+    <!-- main css -->
     <link rel="stylesheet" href="../css/style.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="../css/custom.css">
 </head>
 
 <body>
