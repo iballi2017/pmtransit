@@ -1,6 +1,6 @@
-body{
-    background-color: red;
-}
+/* body{
+   
+} */
 
 /* .form-btn{
     border: none;
@@ -26,5 +26,26 @@ body{
 .form-btn {
     border: none;
     border-radius: 0%;
-    background-color: red !important;
+  
+}
+
+.login-page a{
+    text-align: center;
+    color: #B0B0B0;
+ 
+    
+}
+
+
+/* 
+ABOUT US */
+
+.about-us-container .title-component-wrapper{
+background-color: #202020;
+background-image: url(../images/about-us.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-blend-mode: soft-light;
+color: #fff;
+
 }
