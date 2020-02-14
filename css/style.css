@@ -32,6 +32,21 @@ h5,
 h6 {
   clear: both; }
 
+.text-content-top {
+  height: 40vh;
+  display: flex;
+  justify-content: flex-end;
+  text-align: end;
+  align-items: center; }
+  .text-content-top .hero-title {
+    color: #ffffff; }
+    .text-content-top .hero-title h1 {
+      font-size: 4rem;
+      margin: 0; }
+    .text-content-top .hero-title h3 {
+      font-size: 2rem;
+      margin: 0; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -47,7 +62,8 @@ input[type="submit"] {
   font-size: 0.75rem;
   line-height: 1;
   padding: 0.6em 1em 0.4em;
-  background-color: #4d9f45 !important; }
+  background-color: #4d9f45 !important;
+  color: #ffffff !important; }
 
 button:hover,
 input[type="button"]:hover,
@@ -133,7 +149,8 @@ textarea {
 /*...................... Nav-links animation ......................*/
 .main-animate-nav-item {
   display: inline-block;
-  position: relative; }
+  position: relative;
+  margin-right: 1.2em; }
 
 .main-animate-nav-item:after {
   background: none repeat scroll 0 0 transparent;
@@ -156,7 +173,7 @@ textarea {
 
 .hero {
   height: 80vh;
-  background-image: url(../images/hero-banner.png);
+  background-image: url(../images/hero-banner2.png);
   background-blend-mode: soft-light;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -196,26 +213,72 @@ textarea {
 .hero-tab-main-content-wrapper {
   background-color: #ffffff; }
 
+.hero-booking-form {
+  margin-top: -200px; }
+
 .hero-tab-nav-links {
   background-color: #f0f0f0;
   color: #4d9f45;
-  border-radius: 0 !important; }
+  border-radius: 0 !important;
+  padding-top: 1em;
+  padding-bottom: 1em; }
   .hero-tab-nav-links.active {
     background-color: #4d9f45 !important;
     color: #ffffff; }
 
 .book-a-seat-tab-nav-links {
   background-color: #dedede;
-  box-shadow: 10px 5px 10px rgba(32, 32, 32, 0.3);
+  box-shadow: 2px 5px 5px rgba(56, 53, 53, 0.3);
   color: #4d9f45; }
   .book-a-seat-tab-nav-links.active {
-    background-color: #2589bd !important;
+    background-color: #4d9f45 !important;
     box-shadow: unset !important; }
+
+.section-title::after {
+  content: "";
+  display: block;
+  height: 10px; }
+
+/*...............why-choose-us-list................*/
+.why-choose-us .section-title::after {
+  background-color: #2589bd;
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 0.5em; }
+
+.why-choose-us-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0; }
+  .why-choose-us-list li {
+    text-align: center;
+    flex-basis: 24%; }
+
+/*...............How it works................*/
+.how-it-works-inner {
+  height: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center; }
+  .how-it-works-inner .section-title::after {
+    background-color: #ffffff;
+    width: 25%;
+    margin-top: 0.5em; }
+
+.problem-then-contact-us {
+  background-color: #212121; }
+  .problem-then-contact-us .problem-then-contact-us-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
 
 /*......................................................*/
 /*...................... footer ......................*/
 footer {
-  background-color: #0c0c0c;
+  background-color: #293927;
   color: #ffffff; }
   footer ul {
     padding: 0; }
@@ -224,8 +287,12 @@ footer {
       margin-top: 1em; }
   footer a {
     text-decoration: none;
-    color: red; }
+    color: #ffffff; }
     footer a:hover, footer a:focus {
       color: #ffffff; }
+  footer .social-icons {
+    display: flex; }
+    footer .social-icons .social-icon {
+      margin-right: 2em; }
 
 /*# sourceMappingURL=style.css.map */
