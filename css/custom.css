@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+}
+
+/* .form-btn{
+    border: none;
+    border-radius: 0%;
+} */
+
+/*  Register page style */
+.register-page .form-section {
+    background-color:#fff;
+
+}
+
+.register-page input, .login-page input{
+    background-color: #E5E5E5;
+}
+
+
+
+
+
+
+/* login-page */
+.form-btn {
+    border: none;
+    border-radius: 0%;
+    background-color: red !important;
+}
