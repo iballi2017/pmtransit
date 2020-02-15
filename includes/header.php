@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
 
         <div class="container">
             <a class="navbar-brand" href=".././">
@@ -47,10 +47,12 @@
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="#">Sign In</a>
+                        <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="../user/login.php">Sign
+                            In</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="#">Sign Up</a>
+                        <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="../user/register.php">Sign
+                            Up</a>
                     </li>
                     <li class="nav-item active">
                         <buton class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2">Logout</buton>
