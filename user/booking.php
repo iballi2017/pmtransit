@@ -13,7 +13,7 @@ include_once '../includes/header.php'; ?>
 
     <!-- booking form -->
 
-    <div class="container hero-booking-form">
+    <div class="container hero-booking-form my-5">
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2">
                 <ul class="nav row nav-pills col-block hero-main-nav-pills no-gutters" id="pills-tab" role="tablist">

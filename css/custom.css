@@ -21,6 +21,8 @@
 .form-btn {
   border: none;
   border-radius: 0%;
+  color: white;
+  background-color: green;
 }
 
 .login-page a {
@@ -30,8 +32,30 @@
 
 /* 
 ABOUT US */
-
+/* 
 .about-us-container .title-component-wrapper {
+  background-color: #202020;
+  background-image: url(../images/about-us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  color: #fff;
+}
+
+
+/* 
+BOOKING */
+/* 
+.booking-page .title-component-wrapper {
+  background-color: #202020;
+  background-image: url(../images/about-us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  color: #fff;
+} */
+
+.title-component-wrapper {
   background-color: #202020;
   background-image: url(../images/about-us.png);
   background-size: cover;

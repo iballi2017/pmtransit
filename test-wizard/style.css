@@ -58,6 +58,10 @@ input.invalid {
 .step.finish {
   background-color: #00327a;
 }
+.step.finish > .step-label {
+  color: #00327a !important;
+  font-weight: 600;
+}
 
 .line-through-steps {
   background-color: #bbbbbb;
@@ -111,9 +115,4 @@ input.invalid {
 
 .text {
   /* bottom: 0; */
-}
-
-#second-indicator.active > #b-indicator {
-  background-color: red;
-  color: green;
 }

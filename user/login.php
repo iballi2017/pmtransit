@@ -19,34 +19,34 @@ include_once '../includes/header.php'; ?>
             <div class="row">
                 <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
                     <div class="card my-5">
-                        <div class="card-body p3">
+                        <div class="card-body p-5">
 
                             <form>
 
-                                <p class="text-center"><strong>Login to your account</strong></p>
+                                <h4 class="text-center"><strong>Login to your account</strong></h4>
 
-                                <div class="form-group input-group-lg ">
+                                <div class="form-group">
                                     <label for="inputEmail/phonenumber"></label>
                                     <input type="email" class="form-control" id="inputEmail"
                                         placeholder="Email / Phone number">
                                 </div>
 
-                                <div class="form-group input-group-lg ">
+                                <div class="form-group">
                                     <label for="inputPassword"></label>
                                     <input type="password" class="form-control" id="inputPassword"
                                         placeholder="Password">
                                 </div>
 
-                                <div class="text-center my-4">
-                                    <button type="submit" class="btn  px-5 white " style="color: white; ">Login</button>
+                                <div class="my-4">
+                                    <button type="submit" class="btn form-btn px-5">Login</button>
                                 </div>
 
-                                <p class="text-center py-2">
-                                    <a href="#">Dont have account? Click <span
-                                            style="color: #4D9F45">here</span> to register forgot password?</a>
+                                <p class="">
+                                    <a href="#">Dont have account? Click <span style="color: #4D9F45">here</span> to
+                                        register forgot password?</a>
                                 </p>
 
-                                <p class="text-center py-2">
+                                <p>
                                     <a href="#" style="color: #4D9F45; ">Continue without login</a>
                                 </p>
 
