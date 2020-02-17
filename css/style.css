@@ -62,7 +62,6 @@ input[type="submit"] {
   font-size: 0.75rem;
   line-height: 1;
   padding: 0.6em 1em 0.4em;
-  background-color: #4d9f45 !important;
   color: #ffffff !important; }
 
 button:hover,
@@ -145,6 +144,12 @@ textarea {
     width: 120px;
     height: 40px; }
 
+.mobile-menu-icon {
+  color: #4d9f45 !important; }
+  .mobile-menu-icon:active {
+    color: black !important;
+    border: 1px solid #4d9f45 !important; }
+
 /*......................................................*/
 /*...................... Nav-links animation ......................*/
 .main-animate-nav-item {
@@ -213,7 +218,7 @@ textarea {
 .hero-tab-main-content-wrapper {
   background-color: #ffffff; }
 
-.hero-booking-form {
+.index-booking-form {
   margin-top: -200px; }
 
 .hero-tab-nav-links {
@@ -294,5 +299,131 @@ footer {
     display: flex; }
     footer .social-icons .social-icon {
       margin-right: 2em; }
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff; }
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa; }
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd; }
+
+/* Hide all steps by default: */
+.tab {
+  display: none; }
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 60px;
+  width: 60px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000;
+  margin: 0; }
+
+.step p {
+  margin: 0;
+  font-weight: 600; }
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1; }
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #00327a; }
+
+.step.finish > .step-label {
+  color: #00327a !important;
+  font-weight: 600; }
+
+.line-through-steps {
+  background-color: #bbbbbb;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  width: 90%;
+  margin: 0 auto; }
+
+.step-indicators {
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+
+/* #step-1-indicator::after {
+  content: "sahABJCB";
+  display: block;
+  bottom: 0;
+  border: 1px solid red;
+} */
+.step-1-select-a-bus-page .seat-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0; }
+  .step-1-select-a-bus-page .seat-numbers li {
+    margin: 1em; }
+    .step-1-select-a-bus-page .seat-numbers li::after {
+      content: "\f6c0";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      color: #c4c4c4;
+      font-size: 1.4rem; }
+  .step-1-select-a-bus-page .seat-numbers li.selected + li::after {
+    color: green; }
+  .step-1-select-a-bus-page .seat-numbers li.occupied + li::after {
+    color: goldenrod; }
+.step-1-select-a-bus-page .seat-label-info span.selected {
+  background-color: green; }
+.step-1-select-a-bus-page .seat-label-info span.occupied {
+  background-color: goldenrod; }
+.step-1-select-a-bus-page .seat-label-info span::before {
+  content: "\f6c0";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #c4c4c4;
+  font-size: 1.4rem; }
+
+@media (max-width: 425px) {
+  .step {
+    height: 40px;
+    width: 40px; } }
+/* structure.hml style */
+.step-indicators-items {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto; }
+
+.step-indicator-circle {
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; }
+
+.text {
+  /* bottom: 0; */ }
 
 /*# sourceMappingURL=style.css.map */
