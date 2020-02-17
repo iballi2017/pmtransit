@@ -49,3 +49,24 @@ background-blend-mode: soft-light;
 color: #fff;
 
 }
+
+/* CONTACT US */
+
+
+.contact-us-container .title-component-wrapper{
+    background-color: #202020;
+    background-image: url(../images/contact-us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    color: #fff;
+    
+    }
+
+.contact-us input{
+    background-color:red;
+    
+}
+
+
+
