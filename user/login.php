@@ -19,13 +19,11 @@ include_once '../includes/header.php'; ?>
             <div class="row">
                 <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
                     <div class="card my-5">
-<<<<<<< HEAD
-                        <div class="card-body p3">
-<!-- 
-=======
-                        <div class="card-body p-5">
+                        <div class="card-body p1">
 
->>>>>>> 1c8d7c441ea325e743f37cfa6a619369dd889518
+                        <div class="card-body p-2">
+
+
                             <form>
 
                                 <h4 class="text-center"><strong>Login to your account</strong></h4>
@@ -42,8 +40,8 @@ include_once '../includes/header.php'; ?>
                                         placeholder="Password">
                                 </div>
 
-                                <div class="my-4">
-                                    <button type="submit" class="btn form-btn px-5">Login</button>
+                                <div class="my-4 text-center">
+                                    <button type="submit" class="btn form-btn px-3">Login</button>
                                 </div>
 
                                 <p class="">
@@ -56,7 +54,7 @@ include_once '../includes/header.php'; ?>
                                 </p>
 
 
-                            </form> -->
+                            </form> 
                         </div>
                     </div>
                 </div>
