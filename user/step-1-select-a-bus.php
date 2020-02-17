@@ -2,19 +2,45 @@
 <?php include_once '../includes/header.php'; ?>
 
 
-<section>
-    <div class="container">
-        <form class="bg-white p-5">
-            <div class="table-responsive">
+<main class="step-1-select-a-bus-page mb-5">
+
+    <section class="bg-primary">
+        <div class="container text-white">
+            <h2>DESTINATIONS TO AND FRO</h2>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" href="#">Select Date</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Select Seat</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bg-warning py-2">
+            <div class="container">
+                <p class="m-0 text-white">N.B: You can only fill in 2 seats for force personnel</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section>
+        <div class="container">
+            <form class="bg-white p-5">
+                <!-- <div class="table-responsive"> -->
                 <table class="table bg-light">
                     <!-- <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
-                    </tr>
-                    </thead> -->
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">First</th>
+                            <th scope="col">Last</th>
+                            <th scope="col">Handle</th>
+                        </tr>
+                        </thead> -->
                     <tbody>
                         <tr>
                             <div class="container">
@@ -50,58 +76,58 @@
                                         <div class="col col-md-8 offset-2 bg-primary p-3">
                                             <div class="container">
                                                 <div class="row">
-                                                    <div class="col-12 col-md-8">
+                                                    <div class="col-12 col-md-6">
 
-                                                        <ul class='bg-light p-3'
-                                                            style="display: flex; flex-wrap: wrap; list-style: none; padding: 0">
-                                                            <li>
-                                                                Seat 1
+                                                        <ul class='seat-numbers bg-light p-3' style="">
+                                                            <li class="occupied">
+                                                                1
                                                             </li>
                                                             <li>
-                                                                Seat 2
+                                                                2
+                                                            </li>
+                                                            <li class="selected">
+                                                                3
                                                             </li>
                                                             <li>
-                                                                Seat 3
+                                                                4
+                                                            </li>
+                                                            <li class="occupied">
+                                                                5
                                                             </li>
                                                             <li>
-                                                                Seat 4
+                                                                6
+                                                            </li>
+                                                            <li class="selected">
+                                                                7
+                                                            </li>
+                                                            <li class="occupied">
+                                                                8
                                                             </li>
                                                             <li>
-                                                                Seat 5
+                                                                9
+                                                            </li>
+                                                            <li class="occupied">
+                                                                10
                                                             </li>
                                                             <li>
-                                                                Seat 6
+                                                                11
                                                             </li>
                                                             <li>
-                                                                Seat 7
-                                                            </li>
-                                                            <li>
-                                                                Seat 8
-                                                            </li>
-                                                            <li>
-                                                                Seat 9
-                                                            </li>
-                                                            <li>
-                                                                Seat 10
-                                                            </li>
-                                                            <li>
-                                                                Seat 11
-                                                            </li>
-                                                            <li>
-                                                                Seat 12
+                                                                12
                                                             </li>
                                                         </ul>
                                                     </div>
                                                     <div class="col-12 col-md-4">
-                                                        <ul class='bg-light p-3' style="list-style: none; padding: 0">
+                                                        <ul class='seat-label-info bg-light p-3'
+                                                            style="list-style: none; padding: 0">
                                                             <li>
-                                                                selected seat
+                                                                <span class="selected"></span> selected seat
                                                             </li>
                                                             <li>
-                                                                Available seat
+                                                                <span></span>Available seat
                                                             </li>
                                                             <li>
-                                                                occupied seat
+                                                                <span class="occupied"></span> occupied seat
                                                             </li>
                                                         </ul>
 
@@ -191,11 +217,12 @@
                         </tr> -->
                     </tbody>
                 </table>
-            </div>
-        </form>
-    </div>
-</section>
+                <!-- </div> -->
+            </form>
+        </div>
+    </section>
 
+</main>
 
 <!-- footer -->
 

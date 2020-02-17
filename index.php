@@ -48,6 +48,9 @@
                     <li class="nav-item main-animate-nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
                     </li>
+                    <li class="nav-item main-animate-nav-item">
+                        <a class="nav-link" href="./user/user-account-profile.php">Account</a>
+                    </li>
                     <li class="nav-item active">
                         <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="./user/login.php">Sign
                             In</a>

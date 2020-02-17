@@ -476,6 +476,67 @@ input.invalid {
   border: 1px solid red;
 } */
 
+// vehicle-selection page
+.vehicle-selection-container {
+}
+
+// step-1-select-a-bus
+.step-1-select-a-bus-page {
+  .seat-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 1em;
+
+      &.selected > &::after {
+        // background-color: green;
+        // color: green;
+      }
+
+      &.occupied {
+        // background-color: goldenrod;
+      }
+
+      &::after {
+        content: "\f6c0";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #c4c4c4;
+        font-size: 1.4rem;
+      }
+    }
+
+    li.selected + li::after {
+      color: green;
+    }
+    li.occupied + li::after {
+      color: goldenrod;
+    }
+  }
+
+  .seat-label-info {
+    span {
+      &.selected {
+        background-color: green;
+      }
+
+      &.occupied {
+        background-color: goldenrod;
+      }
+      &::before {
+        content: "\f6c0";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #c4c4c4;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
 @media (max-width: 425px) {
   .step {
     height: 40px;
