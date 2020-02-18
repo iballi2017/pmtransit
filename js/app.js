@@ -83,6 +83,21 @@ $(document).ready(function () {
             $(this).removeClass("passenger-accordion-minus-btn").addClass("passenger-accordion-plus-btn")
         }
     })
+
+    var loc = window.location.pathname;
+
+    $('#navbarSupportedContent').find('a').each(function () {
+        $(this).toggleClass('active', $(this).attr('href') == loc);
+    });
+
+    var path = loc.split("/").pop();
+    if (path == "") {
+        path = 'index.php';
+    }
+
+
+    var target = $('nav-item a[href="' + path + '"]');
+    target.addClass('active');
 })
 
 
@@ -91,5 +106,3 @@ function goBack() {
     window.history.back();
 }
 
-// Data Picker Initialization
-$('.datepicker').pickadate();

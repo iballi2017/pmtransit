@@ -62,24 +62,16 @@ input[type="submit"] {
   font-size: 0.75rem;
   line-height: 1;
   padding: 0.6em 1em 0.4em; }
-
-button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-  border-color: #ccc #bbb #aaa; }
-
-button:active,
-button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
-  outline: 0;
-  inset: 0;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
+  button:focus, button:active,
+  input[type="button"]:focus,
+  input[type="button"]:active,
+  input[type="reset"]:focus,
+  input[type="reset"]:active,
+  input[type="submit"]:focus,
+  input[type="submit"]:active {
+    outline: 0;
+    inset: 0;
+    box-shadow: unset; }
 
 .form-control,
 .custom-select,
@@ -98,32 +90,31 @@ textarea {
   padding: 3px;
   border: 1px solid #4d9f45;
   background-color: unset; }
-  .form-control:focus,
+  .form-control:focus, .form-control:active,
   .custom-select:focus,
+  .custom-select:active,
   input[type="text"]:focus,
+  input[type="text"]:active,
   input[type="email"]:focus,
+  input[type="email"]:active,
   input[type="password"]:focus,
+  input[type="password"]:active,
   input[type="search"]:focus,
+  input[type="search"]:active,
   input[type="number"]:focus,
+  input[type="number"]:active,
   input[type="tel"]:focus,
+  input[type="tel"]:active,
   input[type="date"]:focus,
+  input[type="date"]:active,
   input[type="time"]:focus,
-  textarea:focus {
+  input[type="time"]:active,
+  textarea:focus,
+  textarea:active {
     border: 1px solid #4d9f45;
     outline: 0;
     inset: 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
-
-.custom-select,
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="date"]:focus,
-textarea:focus {
-  color: #4d9f45; }
 
 select {
   border: 1px solid #ccc; }
@@ -152,11 +143,6 @@ textarea {
   color: #ffffff; }
   .navbar-light .navbar-nav .nav-link:hover {
     color: #ffffff; }
-  .navbar-light .navbar-nav .nav-link:focus {
-    border: 1px solid #4d9f45;
-    outline: 0;
-    inset: 0;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
 
 /*...........................
 navbar brand logo modified for screen-readers
@@ -184,6 +170,14 @@ navbar brand logo modified for screen-readers
     color: black !important;
     border: 1px solid #4d9f45 !important; }
 
+.custom-nav-btn {
+  color: #ffffff; }
+
+.custom-nav-link {
+  color: #ffffff; }
+  .custom-nav-link:hover {
+    color: #a8b622; }
+
 /*......................................................*/
 /*......................
  Nav-links animation 
@@ -210,7 +204,8 @@ navbar brand logo modified for screen-readers
   left: 0; }
 
 .main-animate-nav-item.active {
-  border-bottom: 3px solid #4d9f45; }
+  border-bottom: 3px solid #4d9f45;
+  color: #ffffff; }
 
 /* ..............
  hero content section
