@@ -60,7 +60,22 @@ include_once '../includes/header.php'; ?>
 
 
 
+<<<<<<< HEAD
             </div>
+=======
+                </div>
+
+                <div class="col-12  col-md-6 pt-5 pr-2">
+                    <h4 class="py-3">For further inquiries, see our office address below: </h4>
+                    <p  class="py-2 "><span><strong>Address:</strong></span> ROYAL RESIDENCE, olay street, ondo state</p>
+                    <p><span><strong>Phone:</strong></span>  07065194485</p>
+                    <p>
+                    <span><strong>Email:</strong></span>
+                    contact@pmtransit.com
+                    <br>
+                        <p class="ml-5">info@pmtransit.com</p>
+                    </p>
+>>>>>>> cbbd9345b254ff26114a0c6eed60262f80168dc5
 
             <div class="col-12  col-md-6 pt-5 pr-2">
                 <h4 class="py-3">For further inquiries, see our office address below: </h4>
