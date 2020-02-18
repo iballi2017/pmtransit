@@ -80,7 +80,8 @@
                         <li class="nav-item col-12 col-md-6">
                             <a class="nav-link active text-center hero-tab-nav-links btn-block"
                                 id="pills-seat-booking-tab" data-toggle="pill" href="#pills-seat-booking" role="tab"
-                                aria-controls="pills-seat-booking" aria-selected="true">BOOK A SEAT</a>
+                                aria-controls="pills-seat-booking" aria-selected="true"
+                                style="border-radius: 10px 0px 0px 0px">BOOK A SEAT</a>
                         </li>
                         <li class="nav-item col-12 col-md-6">
                             <a class="nav-link text-center hero-tab-nav-links" id="pills-bus-hire-tab"
