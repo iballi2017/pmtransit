@@ -135,6 +135,22 @@ textarea {
 
 /*......................................................*/
 /*...................... Brand-logo style considering screen readers ......................*/
+.main-nav-bar {
+  background-color: #1b1c13; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff; }
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff; }
+  .navbar-light .navbar-nav .nav-link:focus {
+    border: 1px solid #4d9f45;
+    outline: 0;
+    inset: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
+
+/*...........................
+navbar brand logo modified for screen-readers
+*/
 .navbar-brand {
   text-indent: -100000px;
   padding: 0; }
@@ -142,11 +158,26 @@ textarea {
     background-image: url("../images/brand-logo.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 120px;
+    width: 90px;
     height: 40px; }
 
+.btn-custom-green-outline {
+  border: 1px solid #a8b622; }
+  .btn-custom-green-outline:hover {
+    background-color: #4d9f45; }
+  .btn-custom-green-outline:focus {
+    border: 1px solid #4d9f45; }
+
+.mobile-menu-icon {
+  color: #4d9f45 !important; }
+  .mobile-menu-icon:active {
+    color: black !important;
+    border: 1px solid #4d9f45 !important; }
+
 /*......................................................*/
-/*...................... Nav-links animation ......................*/
+/*......................
+ Nav-links animation 
+ ......................*/
 .main-animate-nav-item {
   display: inline-block;
   position: relative;
@@ -171,6 +202,9 @@ textarea {
 .main-animate-nav-item.active {
   border-bottom: 3px solid #4d9f45; }
 
+/* ..............
+ hero content section
+ ..................*/
 .hero {
   height: 80vh;
   background-image: url(../images/hero-banner2.png);
@@ -213,7 +247,7 @@ textarea {
 .hero-tab-main-content-wrapper {
   background-color: #ffffff; }
 
-.hero-booking-form {
+.index-booking-form {
   margin-top: -200px; }
 
 .hero-tab-nav-links {
@@ -294,5 +328,125 @@ footer {
     display: flex; }
     footer .social-icons .social-icon {
       margin-right: 2em; }
+
+/* Style the form */
+#regForm {
+  background-color: #ffffff; }
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa; }
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd; }
+
+/* Hide all steps by default: */
+.tab {
+  display: none; }
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 60px;
+  width: 60px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000;
+  margin: 0; }
+
+.step p {
+  margin: 0;
+  font-weight: 600; }
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1; }
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #00327a; }
+
+.step.finish > .step-label {
+  color: #00327a !important;
+  font-weight: 600; }
+
+.line-through-steps {
+  background-color: #bbbbbb;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  width: 90%;
+  margin: 0 auto; }
+
+.step-indicators {
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative; }
+
+/* #step-1-indicator::after {
+  content: "sahABJCB";
+  display: block;
+  bottom: 0;
+  border: 1px solid red;
+} */
+.custom-control-label::after {
+  background-image: url(../images/seat.svg) !important; }
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #4d9f45;
+  background-color: #4d9f45; }
+
+.custom-checkbox .custom-control-input {
+  background-color: red; }
+
+.step-2-fill-information-page .passenger-accordion-plus-btn::before {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: red; }
+.step-2-fill-information-page .passenger-accordion-minus-btn::before {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: red; }
+
+@media (max-width: 425px) {
+  .step {
+    height: 40px;
+    width: 40px; } }
+/* structure.hml style */
+.step-indicators-items {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto; }
+
+.step-indicator-circle {
+  background-color: aqua;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; }
+
+.text {
+  /* bottom: 0; */ }
 
 /*# sourceMappingURL=style.css.map */

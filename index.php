@@ -19,39 +19,50 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light main-nav-bar sticky-top">
 
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./">
                 <h2>Brand Logo</h2>
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler mobile-menu-icon" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <i class="fas fa-ellipsis-v fa-1x"></i>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item main-animate-nav-item active">
+                    <!-- <li class="nav-item main-animate-nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li> -->
+                    <li class="nav-item main-animate-nav-item">
+                        <a class="nav-link" href="./user/about-us.php">About Us</a>
                     </li>
                     <li class="nav-item main-animate-nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="https://postmailexpress.com/users/cargo-service"
+                            target="_blank">Cargo</a>
                     </li>
                     <li class="nav-item main-animate-nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="./user/booking.php">Hire a Bus</a>
                     </li>
                     <li class="nav-item main-animate-nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="./user/contact-us.php">Contact Us</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="#">Sign In</a>
+                    <li class="nav-item main-animate-nav-item">
+                        <a class="nav-link" href="./user/user-account-profile.php">Account</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="#">Sign Up</a>
+                    <li class="nav-item">
+                        <a class="btn btn-sm btn-custom-green-outline nav-link px-3 mx-2" href="./user/login.php">Sign
+                            In</a>
                     </li>
-                    <li class="nav-item active">
-                        <buton class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2">Logout</buton>
+                    <li class="nav-item">
+                        <a class="btn btn-sm btn-custom-green-outline nav-link px-3 mx-2"
+                            href="./user/register.php">Sign
+                            Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <buton class="btn btn-sm btn-custom-green-outline nav-link px-3 mx-2">Logout</buton>
                     </li>
                 </ul>
             </div>
@@ -72,7 +83,7 @@
 
 
         </section>
-        <div class="container hero-booking-form">
+        <div class="container index-booking-form hero-booking-form">
             <div class="row">
                 <div class="col-12 col-md-8 offset-md-2">
                     <ul class="nav row nav-pills col-block hero-main-nav-pills no-gutters" id="pills-tab"
@@ -153,7 +164,7 @@
                                                         </div>
 
                                                     </div>
-                                                    <button type="submit" class="btn">BOOK
+                                                    <button type="submit" class="btn btn-success">BOOK
                                                         NOW</button>
                                                 </form>
 

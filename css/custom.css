@@ -9,43 +9,82 @@
 
 /*  Register page style */
 .register-page .form-section {
-    background-color:#fff;
-
+  background-color: #fff;
 }
 
-.register-page input, .login-page input{
-    background-color: #E5E5E5;
+.register-page input,
+.login-page input {
+  background-color: #e5e5e5;
 }
-
-
-
-
-
 
 /* login-page */
 .form-btn {
-    border: none;
-    border-radius: 0%;
-  
+  border: none;
+  border-radius: 0%;
+  color: white;
+  background-color: green;
 }
 
-.login-page a{
-    text-align: center;
-    color: #B0B0B0;
- 
-    
+.login-page a {
+  text-align: center;
+  color: #b0b0b0;
+}
+
+/* 
+ABOUT US */
+/* 
+.about-us-container .title-component-wrapper {
+  background-color: #202020;
+  background-image: url(../images/about-us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  color: #fff;
 }
 
 
 /* 
-ABOUT US */
+BOOKING */
+/* 
+.booking-page .title-component-wrapper {
+  background-color: #202020;
+  background-image: url(../images/about-us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  color: #fff;
+} */
 
-.about-us-container .title-component-wrapper{
-background-color: #202020;
-background-image: url(../images/about-us.png);
-background-size: cover;
-background-repeat: no-repeat;
-background-blend-mode: soft-light;
-color: #fff;
-
+<<<<<<< HEAD
 }
+
+/* CONTACT US */
+
+
+.contact-us-container .title-component-wrapper{
+    background-color: #202020;
+    background-image: url(../images/contact-us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    color: #fff;
+    
+    }
+
+.contact-us input{
+    background-color:red;
+    
+}
+
+
+
+=======
+.title-component-wrapper {
+  background-color: #202020;
+  background-image: url(../images/about-us.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  color: #fff;
+}
+>>>>>>> 1c8d7c441ea325e743f37cfa6a619369dd889518
