@@ -132,11 +132,11 @@ textarea {
   background-color: $greenishLightColor;
   color: $white;
   &:hover {
-    background-color: $greenishColor !important;
+    background-color: $greenishLightColor !important;
     color: $white;
   }
   &:focus {
-    border: 1px solid $greenishColor;
+    border: 1px solid $greenishLightColor;
     outline: 0;
     inset: 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
@@ -201,6 +201,15 @@ navbar brand logo modified for screen-readers
 
 .custom-nav-btn {
   color: $white;
+
+  &:hover,
+  &:focus {
+    background-color: $greenishLightColor;
+    color: $white;
+    outline: 0;
+    inset: 0;
+    box-shadow: unset;
+  }
 }
 
 .custom-nav-link {

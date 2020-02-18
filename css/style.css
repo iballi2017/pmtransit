@@ -126,10 +126,10 @@ textarea {
   background-color: #a8b622;
   color: #ffffff; }
   .custom-form-btn:hover {
-    background-color: #4d9f45 !important;
+    background-color: #a8b622 !important;
     color: #ffffff; }
   .custom-form-btn:focus {
-    border: 1px solid #4d9f45;
+    border: 1px solid #a8b622;
     outline: 0;
     inset: 0;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
@@ -172,6 +172,12 @@ navbar brand logo modified for screen-readers
 
 .custom-nav-btn {
   color: #ffffff; }
+  .custom-nav-btn:hover, .custom-nav-btn:focus {
+    background-color: #a8b622;
+    color: #ffffff;
+    outline: 0;
+    inset: 0;
+    box-shadow: unset; }
 
 .custom-nav-link {
   color: #ffffff; }
@@ -204,7 +210,7 @@ navbar brand logo modified for screen-readers
   left: 0; }
 
 .main-animate-nav-item.active {
-  border-bottom: 3px solid #4d9f45;
+  border-bottom: 3px solid #a8b622;
   color: #ffffff; }
 
 /* ..............
