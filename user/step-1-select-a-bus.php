@@ -30,195 +30,90 @@
 
     <section>
         <div class="container">
-            <form class="bg-white p-5">
-                <!-- <div class="table-responsive"> -->
-                <table class="table bg-light">
-                    <!-- <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
-                        </tr>
-                        </thead> -->
-                    <tbody>
-                        <tr>
-                            <div class="container">
 
-                                <td>
-                                    <div class="row">
-                                        <div class="col-12 col-md-2">
-                                            <img src="../images/vehicle-1.png" class="img img-fluid" alt=""></div>
-                                        <div class="col-12 col-md-2">
-                                            <p>Name of vehicle<br />A/C</p>
-                                        </div>
-                                        <div class="col-6 col-md-2">
-                                            <p>Depareting<br />06:30am</p>
-                                        </div>
-                                        <div class="col-6 col-md-2">
-                                            <p>Seat(s)<br />9</p>
-                                        </div>
-                                        <div class="col-6 col-md-2">
-                                            <p>Price<br />#19000</p>
-                                        </div>
-                                        <div class="col-6 col-md-2">
-                                            <div class="custom-control custom-radio">
-                                                <input type="radio" id="customRadio1" name="customRadio"
-                                                    class="custom-control-input">
-                                                <label class="custom-control-label btn btn-sm form-btn"
-                                                    for="customRadio1">Select
-                                                    Bus</label>
-                                            </div>
-                                        </div>
+            <table class="table bg-light">
+                <tbody>
+                    <tr>
+                        <div class="container">
+                            <td>
+                                <div class="row">
+                                    <div class="col-12 col-md-2">
+                                        <img src="../images/vehicle-1.png" class="img img-fluid" alt=""></div>
+                                    <div class="col-12 col-md-2">
+                                        <p>Name of vehicle<br />A/C</p>
                                     </div>
-                                    <!-- <div class="container"> -->
-                                    <div class="row">
-                                        <div class="col col-md-8 offset-2 bg-primary p-3">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="col-12 col-md-6">
-
-                                                        <ul class='seat-numbers bg-light p-3' style="">
-                                                            <li class="occupied">
-                                                                1
-                                                            </li>
-                                                            <li>
-                                                                2
-                                                            </li>
-                                                            <li class="selected">
-                                                                3
-                                                            </li>
-                                                            <li>
-                                                                4
-                                                            </li>
-                                                            <li class="occupied">
-                                                                5
-                                                            </li>
-                                                            <li>
-                                                                6
-                                                            </li>
-                                                            <li class="selected">
-                                                                7
-                                                            </li>
-                                                            <li class="occupied">
-                                                                8
-                                                            </li>
-                                                            <li>
-                                                                9
-                                                            </li>
-                                                            <li class="occupied">
-                                                                10
-                                                            </li>
-                                                            <li>
-                                                                11
-                                                            </li>
-                                                            <li>
-                                                                12
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-12 col-md-4">
-                                                        <ul class='seat-label-info bg-light p-3'
-                                                            style="list-style: none; padding: 0">
-                                                            <li>
-                                                                <span class="selected"></span> selected seat
-                                                            </li>
-                                                            <li>
-                                                                <span></span>Available seat
-                                                            </li>
-                                                            <li>
-                                                                <span class="occupied"></span> occupied seat
-                                                            </li>
-                                                        </ul>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <button class="btn form-btn">Continue</button>
-                                        </div>
+                                    <div class="col-6 col-md-2">
+                                        <p>Departing<br />06:30am</p>
                                     </div>
-                                    <!-- </div> -->
-                                </td>
-                            </div>
-                            <!-- <th scope="row">
-                                <img src="../images/vehicle-1.png" class="img img-fluid" alt="">
-                            </th>
-                            <td>
-                                <p>Name of vehicle<br />A/C</p>
-                            </td>
-                            <td>
-                                <p>Depareting<br />06:30am</p>
-                            </td>
-                            <td>
-                                <p>Seat(s)<br />9</p>
-                            </td>
-                            <td>
-                                <p>Price<br />#19000</p>
-                            </td>
-                            <td>
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" id="customRadio1" name="customRadio"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label btn form-btn" for="customRadio1">Select
-                                        Bus</label>
-                                </div>
-                            </td> -->
-                        </tr>
-                        <!-- <tr>
-                            <th scope="row">
-                                <img src="../images/vehicle-2.png" class="img img-fluid" alt="">
-                            </th>
-                            <td>
-                                <p>Name of vehicle<br />A/C</p>
-                            </td>
-                            <td>
-                                <p>Depareting<br />06:30am</p>
-                            </td>
-                            <td>
-                                <p>Seat(s)<br />9</p>
-                            </td>
-                            <td>
-                                <p>Price<br />#19000</p>
-                            </td>
-                            <td>
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" id="customRadio2" name="customRadio"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label btn form-btn" for="customRadio2">Select
-                                        Bus</label>
+                                    <div class="col-6 col-md-2">
+                                        <p>Seat(s)<br />9</p>
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <p>Price<br />#19000</p>
+                                    </div>
+                                    <div class="col-6 col-md-2">
+                                        <button class="btn btn-sm form-btn" type="button" data-toggle="collapse"
+                                            data-target="#collapseExample" aria-expanded="false"
+                                            aria-controls="collapseExample">
+                                            Select
+                                            Bus
+                                        </button>
+                                    </div>
                                 </div>
                             </td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <img src="../images/vehicle-3.png" class="img img-fluid" alt=""></th>
-                            </th>
-                            <td>
-                                <p>Name of vehicle<br />A/C</p>
-                            </td>
-                            <td>
-                                <p>Depareting<br />06:30am</p>
-                            </td>
-                            <td>
-                                <p>Seat(s)<br />9</p>
-                            </td>
-                            <td>
-                                <p>Price<br />#19000</p>
-                            </td>
-                            <td>
-                                <div class="custom-control custom-radio">
-                                    <input type="radio" id="customRadio3" name="customRadio"
-                                        class="custom-control-input">
-                                    <label class="custom-control-label btn form-btn" for="customRadio3">Select
-                                        Bus</label>
-                                </div>
-                            </td>
-                        </tr> -->
-                    </tbody>
-                </table>
-                <!-- </div> -->
-            </form>
+                        </div>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="collapse mb-5" id="collapseExample">
+                <div class="card card-body">
+                    <form action="" class="seat-arrangement">
+                        <!-- <img src="../images/seat.svg" class="img img-fluid" style="background-color: red" alt=""> -->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-1-checkbox">
+                            <label class="custom-control-label" for="seat-1-checkbox">Seat 1</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-2-checkbox">
+                            <label class="custom-control-label" for="seat-2-checkbox">Seat 2</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-3-checkbox">
+                            <label class="custom-control-label" for="seat-3-checkbox">Seat 3</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-4-checkbox">
+                            <label class="custom-control-label" for="seat-4-checkbox">Seat 4</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-5-checkbox">
+                            <label class="custom-control-label" for="seat-5-checkbox">Seat 5</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-6-checkbox">
+                            <label class="custom-control-label" for="seat-6-checkbox">Seat 6</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-7-checkbox">
+                            <label class="custom-control-label" for="seat-7-checkbox">Seat 7</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-8-checkbox">
+                            <label class="custom-control-label" for="seat-8-checkbox">Seat 8</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="seat-9-checkbox">
+                            <label class="custom-control-label" for="seat-9-checkbox">Seat 9</label>
+                        </div>
+                        <button type="submit" class="btn btn-sm form-btn px-3">Continue</button>
+
+                    </form>
+                    <!-- Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. -->
+                </div>
+            </div>
+
         </div>
     </section>
 

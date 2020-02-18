@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light main-nav-bar sticky-top">
 
         <div class="container">
             <a class="navbar-brand" href="./">
@@ -40,27 +40,29 @@
                         <a class="nav-link" href="./user/about-us.php">About Us</a>
                     </li>
                     <li class="nav-item main-animate-nav-item">
-                        <a class="nav-link" href="#">Cargo</a>
+                        <a class="nav-link" href="https://postmailexpress.com/users/cargo-service"
+                            target="_blank">Cargo</a>
                     </li>
                     <li class="nav-item main-animate-nav-item">
                         <a class="nav-link" href="./user/booking.php">Hire a Bus</a>
                     </li>
                     <li class="nav-item main-animate-nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="./user/contact-us.php">Contact Us</a>
                     </li>
                     <li class="nav-item main-animate-nav-item">
                         <a class="nav-link" href="./user/user-account-profile.php">Account</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="./user/login.php">Sign
+                    <li class="nav-item">
+                        <a class="btn btn-sm btn-custom-green-outline nav-link px-3 mx-2" href="./user/login.php">Sign
                             In</a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2" href="./user/register.php">Sign
+                    <li class="nav-item">
+                        <a class="btn btn-sm btn-custom-green-outline nav-link px-3 mx-2"
+                            href="./user/register.php">Sign
                             Up</a>
                     </li>
-                    <li class="nav-item active">
-                        <buton class="btn btn-outline-secondary btn-sm nav-link px-3 mx-2">Logout</buton>
+                    <li class="nav-item">
+                        <buton class="btn btn-sm btn-custom-green-outline nav-link px-3 mx-2">Logout</buton>
                     </li>
                 </ul>
             </div>

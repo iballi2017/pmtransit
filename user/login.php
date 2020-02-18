@@ -19,13 +19,7 @@ include_once '../includes/header.php'; ?>
             <div class="row">
                 <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
                     <div class="card my-5">
-<<<<<<< HEAD
-                        <div class="card-body p3">
-<!-- 
-=======
                         <div class="card-body p-5">
-
->>>>>>> 1c8d7c441ea325e743f37cfa6a619369dd889518
                             <form>
 
                                 <h4 class="text-center"><strong>Login to your account</strong></h4>
@@ -56,7 +50,7 @@ include_once '../includes/header.php'; ?>
                                 </p>
 
 
-                            </form> -->
+                            </form>
                         </div>
                     </div>
                 </div>
