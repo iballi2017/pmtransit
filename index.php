@@ -75,8 +75,9 @@
             <div class="container">
                 <div class="text-content-top">
                     <div class="hero-title">
-                        <h3 class="animated fadeInDown delay-1s">Fast and convenient</h3>
-                        <h1 class="animated fadeInUp delay-1s">Everywhere, anytime</h1>
+                        <h5 class="animated fadeInDown delay-1s">We are always there at your service</h5>
+                        <h3 class="animated fadeInUp delay-1s">FAST and RELIABLE way to find QUALITY anywhere you need
+                            it</h3>
                     </div>
                 </div>
             </div>
@@ -85,7 +86,7 @@
         </section>
         <div class="container index-booking-form hero-booking-form">
             <div class="row">
-                <div class="col-12 col-md-8 offset-md-2">
+                <div class="col-12 col-md-10 offset-md-1">
                     <ul class="nav row nav-pills col-block hero-main-nav-pills no-gutters" id="pills-tab"
                         role="tablist">
                         <li class="nav-item col-12 col-md-6">
@@ -117,7 +118,7 @@
                                                 <a class="nav-link book-a-seat-tab-nav-links ml-1"
                                                     id="pills-roundAbout-tab" data-toggle="pill"
                                                     href="#pills-roundAbout" role="tab" aria-controls="pills-roundAbout"
-                                                    aria-selected="false">Roundabout</a>
+                                                    aria-selected="false">Round trip</a>
                                             </li>
                                         </ul>
                                         <div class="tab-content text-left" id="pills-tabContent">
@@ -129,17 +130,15 @@
                                                     <div class="row">
 
                                                         <div class="form-group col-12 col-md-6">
-                                                            <label for="travellingFrom">Travelling From</label>
                                                             <select id="travellingFrom" class="form-control">
-                                                                <option selected>Choose...</option>
+                                                                <option selected>Travelling From</option>
                                                                 <option>...</option>
                                                             </select>
                                                         </div>
 
                                                         <div class="form-group col-12 col-md-6">
-                                                            <label for="travellingTo">Travelling To</label>
                                                             <select id="travellingTo" class="form-control">
-                                                                <option selected>Choose...</option>
+                                                                <option selected>Travelling To</option>
                                                                 <option>...</option>
                                                             </select>
                                                         </div>
@@ -148,68 +147,90 @@
 
                                                     <div class="row">
 
-                                                        <div class="form-group col-12 col-md-6">
-                                                            <label for="departureDate">Departure
-                                                                Date</label>
-                                                            <input type="date" class="form-control" id="departureDate">
+                                                        <div class="form-group col-12 col-md-2">
+                                                            <input type="text" class="form-control" id="departureDate"
+                                                                placeholder="Departure Date">
                                                         </div>
 
-                                                        <div class="form-group col-12 col-md-6">
-                                                            <label for="seat">Seat</label>
-                                                            <select id="seat" class="form-control">
-                                                                <option selected>Choose...</option>
-                                                                <option>...</option>
-                                                            </select>
+                                                        <div class="form-group col-12 col-md-4">
+                                                            <div class="row">
+                                                                <label for="numberOfPassengers"
+                                                                    class="col-md-7 col-form-label">No of
+                                                                    passengers</label>
+                                                                <div class="col-md-5">
+                                                                    <select id="numberOfPassengers"
+                                                                        class="form-control">
+                                                                        <option selected>Choose...</option>
+                                                                        <option>...</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
                                                         </div>
+
+                                                        <div class="col-6 col-md-6">
+                                                            <button type="submit" class="btn custom-form-btn">BOOK
+                                                                NOW</button></div>
 
                                                     </div>
-                                                    <button type="submit" class="btn btn-success">BOOK
-                                                        NOW</button>
                                                 </form>
 
                                             </div>
                                             <div class="tab-pane fade" id="pills-roundAbout" role="tabpanel"
                                                 aria-labelledby="pills-roundAbout-tab">
 
-                                                <!-- round-about form -->
+                                                <!-- round trip form -->
                                                 <form>
                                                     <div class="row">
 
                                                         <div class="form-group col-12 col-md-6">
-                                                            <label for="travellingFrom">Travelling From</label>
                                                             <select id="travellingFrom" class="form-control">
-                                                                <option selected>Choose...</option>
+                                                                <option selected>Travelling From</option>
                                                                 <option>...</option>
                                                             </select>
                                                         </div>
 
                                                         <div class="form-group col-12 col-md-6">
-                                                            <label for="travellingTo">Travelling To</label>
                                                             <select id="travellingTo" class="form-control">
-                                                                <option selected>Choose...</option>
+                                                                <option selected>Travelling To</option>
                                                                 <option>...</option>
                                                             </select>
                                                         </div>
+
                                                     </div>
 
                                                     <div class="row">
 
-                                                        <div class="form-group col-12 col-md-6">
-                                                            <label for="departureDate">Departure
-                                                                Date</label>
-                                                            <input type="date" class="form-control" id="departureDate">
+                                                        <div class="form-group col-6 col-md-3">
+                                                            <input type="text" class="form-control" id="departureDate"
+                                                                placeholder="Departure Date">
                                                         </div>
 
-                                                        <div class="form-group col-12 col-md-6">
-                                                            <label for="seat">Seat</label>
-                                                            <select id="seat" class="form-control">
-                                                                <option selected>Choose...</option>
-                                                                <option>...</option>
-                                                            </select>
+                                                        <div class="form-group col-6 col-md-3">
+                                                            <input type="text" class="form-control" id="returnDate"
+                                                                placeholder="Return Date">
                                                         </div>
+
+                                                        <div class="form-group col-12 col-md-4">
+                                                            <div class="row">
+                                                                <label for="numberOfPassengers"
+                                                                    class="col-md-7 col-form-label">No of
+                                                                    passengers</label>
+                                                                <div class="col-md-5">
+                                                                    <select id="numberOfPassengers"
+                                                                        class="form-control">
+                                                                        <option selected>Choose...</option>
+                                                                        <option>...</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-6 col-md-2">
+                                                            <button type="submit"
+                                                                class="btn custom-form-btn btn-block">BOOK
+                                                                NOW</button></div>
+
                                                     </div>
-                                                    <button type="submit" class="btn btn-secondary">BOOK
-                                                        NOW</button>
                                                 </form>
                                             </div>
                                         </div>
@@ -220,37 +241,39 @@
                         <div class="tab-pane fade text-left" id="pills-bus-hire" role="tabpanel"
                             aria-labelledby="pills-bus-hire-tab">
 
-                            <!-- round-about form -->
+                            <!-- hire-a-bus form -->
                             <form>
                                 <div class="row">
 
-                                    <div class="form-group col">
-                                        <label for="travellingFrom">Travelling From</label>
+                                    <div class="form-group col-12 col-md-6">
                                         <select id="travellingFrom" class="form-control">
-                                            <option selected>Abuja</option>
-                                            <option>Lagos</option>
+                                            <option selected>Travelling From</option>
+                                            <option>...</option>
                                         </select>
                                     </div>
 
-                                    <div class="form-group col">
-                                        <label for="travellingTo">Travelling To</label>
+                                    <div class="form-group col-12 col-md-6">
                                         <select id="travellingTo" class="form-control">
-                                            <option selected>Lagos</option>
-                                            <option>Abuja</option>
+                                            <option selected>Travelling To</option>
+                                            <option>...</option>
                                         </select>
                                     </div>
+
                                 </div>
 
                                 <div class="row">
 
-                                    <div class="form-group col">
-                                        <label for="departureDate">Departure
-                                            Date</label>
-                                        <input type="date" class="form-control" id="departureDate">
+                                    <div class="form-group col-6 col-md-3">
+                                        <input type="text" class="form-control" id="departureDate"
+                                            placeholder="Departure Date">
                                     </div>
+
+                                    <div class="col-6 col-md-2 offset-md-1">
+                                        <button type="submit" class="btn custom-form-btn btn-block">BOOK
+                                            NOW</button>
+                                    </div>
+
                                 </div>
-                                <button type="submit" class="btn btn-success">BOOK
-                                    NOW</button>
                             </form>
                         </div>
                     </div>
@@ -270,19 +293,20 @@
                     <div class="col">
                         <ul class="why-choose-us-list">
                             <li><img src="./images/punctuality.png" class="img img-fluid" alt="">
-                                <p>Puntuality</p>
+                                <p><strong>Puntuality</strong></p>
                             </li>
                             <li><img src="./images/air-condition.png" class="img img-fluid" alt="">
-                                <p>Air Conditioned
-                                    Buses
+                                <p>
+                                    <strong>Air Conditioned
+                                        Buses</strong>
                                 </p>
                             </li>
                             <li><img src="./images/comfort.png" class="img img-fluid" alt="">
-                                <p>Refreshment</p>
+                                <p><strong>Refreshment</strong></p>
                             </li>
                             <li><img src="./images/refreshment.png" class="img img-fluid" alt="">
-                                <p>Comfortable seats
-                                    & leg space</p>
+                                <p><strong>Comfortable seats
+                                        & leg space</strong></p>
                             </li>
                         </ul>
                     </div>
@@ -313,7 +337,7 @@
         <section class="problem-then-contact-us">
             <div class="container py-4 text-white problem-then-contact-us-inner">
                 <h4>Having Any Problem Booking? Let Us Know ! ! !</h4>
-                <a href="#" class="btn btn-success btn-lg">CONTACT US</a>
+                <a href="#" class="btn custom-form-btn btn-lg">CONTACT US</a>
             </div>
         </section>
 
@@ -324,16 +348,22 @@
 
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-6 col-md-3">
                     <ul>
                         <li>
                             <a class="navbar-brand" href="#">
                                 <h2>Brand</h2>
                             </a>
                         </li>
+                        <li>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio blanditiis soluta
+                                eligendi iure sunt pariatur accusamus veniam, unde non est?
+                            </p>
+                        </li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col-6 col-md-3">
                     <ul>
                         <li>
                             <h6 class="footer-column-title">QUICK LINKS</h6>
@@ -355,7 +385,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col-6 col-md-3">
                     <ul>
                         <li>
                             <h6 class="footer-column-title">CONTACT</h6>
@@ -378,9 +408,9 @@
                     </ul>
                 </div>
 
-                <div class="col">
+                <div class="col-6 col-md-3">
                     <ul>
-                        <li>SOCIAL MEDIA</li>
+                        <li class="footer-column-title">SOCIAL MEDIA</li>
                         <li>
                             <ul class="social-icons">
                                 <li>

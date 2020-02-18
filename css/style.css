@@ -33,10 +33,10 @@ h6 {
   clear: both; }
 
 .text-content-top {
-  height: 40vh;
+  height: 50vh;
   display: flex;
-  justify-content: flex-end;
-  text-align: end;
+  justify-content: center;
+  text-align: center;
   align-items: center; }
   .text-content-top .hero-title {
     color: #ffffff; }
@@ -61,9 +61,7 @@ input[type="submit"] {
   font-size: 12px;
   font-size: 0.75rem;
   line-height: 1;
-  padding: 0.6em 1em 0.4em;
-  background-color: #4d9f45 !important;
-  color: #ffffff !important; }
+  padding: 0.6em 1em 0.4em; }
 
 button:hover,
 input[type="button"]:hover,
@@ -133,6 +131,18 @@ select {
 textarea {
   width: 100%; }
 
+.custom-form-btn {
+  background-color: #a8b622;
+  color: #ffffff; }
+  .custom-form-btn:hover {
+    background-color: #4d9f45 !important;
+    color: #ffffff; }
+  .custom-form-btn:focus {
+    border: 1px solid #4d9f45;
+    outline: 0;
+    inset: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6); }
+
 /*......................................................*/
 /*...................... Brand-logo style considering screen readers ......................*/
 .main-nav-bar {
@@ -191,7 +201,7 @@ navbar brand logo modified for screen-readers
   height: 3px;
   left: 50%;
   position: absolute;
-  background: #4d9f45;
+  background: #a8b622;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0; }
 
@@ -207,7 +217,7 @@ navbar brand logo modified for screen-readers
  ..................*/
 .hero {
   height: 80vh;
-  background-image: url(../images/hero-banner2.png);
+  background-image: url(../images/hero-banner4.png);
   background-blend-mode: soft-light;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -252,20 +262,20 @@ navbar brand logo modified for screen-readers
 
 .hero-tab-nav-links {
   background-color: #f0f0f0;
-  color: #4d9f45;
+  color: #a8b622;
   border-radius: 0 !important;
   padding-top: 1em;
   padding-bottom: 1em; }
   .hero-tab-nav-links.active {
-    background-color: #4d9f45 !important;
+    background-color: #a8b622 !important;
     color: #ffffff; }
 
 .book-a-seat-tab-nav-links {
   background-color: #dedede;
   box-shadow: 2px 5px 5px rgba(56, 53, 53, 0.3);
-  color: #4d9f45; }
+  color: #a8b622; }
   .book-a-seat-tab-nav-links.active {
-    background-color: #4d9f45 !important;
+    background-color: #a8b622 !important;
     box-shadow: unset !important; }
 
 .section-title::after {
@@ -275,7 +285,7 @@ navbar brand logo modified for screen-readers
 
 /*...............why-choose-us-list................*/
 .why-choose-us .section-title::after {
-  background-color: #2589bd;
+  background-color: #a8b622;
   width: 10%;
   margin: 0 auto;
   margin-top: 0.5em; }
@@ -309,6 +319,20 @@ navbar brand logo modified for screen-readers
     align-items: center;
     flex-wrap: wrap; }
 
+.title-component-wrapper {
+  background-color: #202020;
+  background-image: url(../images/page-title-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  color: #ffffff; }
+
+.select-bus-page-header {
+  background-color: #7b9e89; }
+
+.select-bus-condition-wrapper {
+  background-color: #f18805; }
+
 /*......................................................*/
 /*...................... footer ......................*/
 footer {
@@ -328,6 +352,13 @@ footer {
     display: flex; }
     footer .social-icons .social-icon {
       margin-right: 2em; }
+  footer .footer-column-title::after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 50px;
+    background-color: #a8b622;
+    margin-top: 0.5em; }
 
 /* Style the form */
 #regForm {
@@ -414,16 +445,22 @@ input.invalid {
 .custom-checkbox .custom-control-input {
   background-color: red; }
 
-.step-2-fill-information-page .passenger-accordion-plus-btn::before {
-  content: "\f067";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  color: red; }
+.step-2-fill-information-page .passenger-accordion-plus-btn::before,
 .step-2-fill-information-page .passenger-accordion-minus-btn::before {
-  content: "\f068";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  color: red; }
+  color: #a8b622; }
+.step-2-fill-information-page .passenger-accordion-plus-btn::before {
+  content: "\f067"; }
+.step-2-fill-information-page .passenger-accordion-minus-btn::before {
+  content: "\f068"; }
+.step-2-fill-information-page .passenger-accordion-btn:hover {
+  border: none; }
+.step-2-fill-information-page .passenger-accordion-btn:focus {
+  border: 1px solid #4d9f45;
+  outline: 0;
+  inset: 0;
+  box-shadow: unset; }
 
 @media (max-width: 425px) {
   .step {

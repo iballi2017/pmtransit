@@ -19,15 +19,8 @@ include_once '../includes/header.php'; ?>
             <div class="row">
                 <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3">
                     <div class="card my-5">
-<<<<<<< HEAD
+
                         <div class="card-body p-5">
-=======
-                        <div class="card-body p1">
-
-                        <div class="card-body p-2">
-
-
->>>>>>> 6bf1dff560554d6204bd60df1d305aa006656187
                             <form>
 
                                 <h4 class="text-center"><strong>Login to your account</strong></h4>
@@ -44,25 +37,19 @@ include_once '../includes/header.php'; ?>
                                         placeholder="Password">
                                 </div>
 
-                                <div class="my-4 text-center">
-                                    <button type="submit" class="btn form-btn px-3">Login</button>
+                                <div class="form-group">
+                                    <button type="submit" class="btn custom-form-btn px-3">Login</button>
                                 </div>
-
                                 <p class="">
-                                    <a href="#">Dont have account? Click <span style="color: #4D9F45">here</span> to
-                                        register forgot password?</a>
+                                    Dont have account? Click <a href="#">here</a> to
+                                    register
                                 </p>
+                                <p><a href="#"> Forgot password?</a></p>
 
                                 <p>
-                                    <a href="#" style="color: #4D9F45; ">Continue without login</a>
+                                    <a href="#">Continue without login</a>
                                 </p>
-
-
-<<<<<<< HEAD
                             </form>
-=======
-                            </form> 
->>>>>>> 6bf1dff560554d6204bd60df1d305aa006656187
                         </div>
                     </div>
                 </div>

@@ -2,22 +2,25 @@
 <?php include_once '../includes/header.php'; ?>
 
 
-<main class="step-2-fill-information-page mb-5">
+<main class="step-3-payment-page mb-5">
 
-    <section class="bg-primary">
+    <section class="select-bus-page-header">
         <div class="container text-white">
             <h2>DESTINATIONS TO AND FRO</h2>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active text-white" href="#">Select Date</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Select Seat</a>
-                </li>
-            </ul>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <span>Selected Date: 20/02/2020</span>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <span>Number of Seats: 3</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="bg-warning py-2">
+        <div class="select-bus-condition-wrapper py-2">
             <div class="container">
                 <p class="m-0 text-white">N.B: You can only fill in 2 seats for force personnel</p>
             </div>
@@ -162,10 +165,10 @@
                             </div>
                         </div>
 
-                        <div class="form-button-container mt-2"
+                        <div class="form-button-container"
                             style="display: flex; justify-content: space-between; align-items: center">
-                            <button class="btn px-4" type="button" onclick="goBack()">Back</button>
-                            <button class="btn" type="submit">Complete</button>
+                            <button class="btn custom-form-btn px-4" type="button" onclick="goBack()">Back</button>
+                            <button class="btn custom-form-btn" type="submit">Continue</button>
                         </div>
                     </form>
 
@@ -197,21 +200,6 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <div class="md-form">
-                            <input placeholder="Selected date" type="text" id="date-picker-example"
-                                class="form-control datepicker">
-                            <label for="date-picker-example">Try me...</label>
-                        </div>
-
-                        <button type="button" class="btn btn-primary">Primary</button>
-                        <button type="button" class="btn btn-secondary">Secondary</button>
-                        <button type="button" class="btn btn-success">Success</button>
-                        <button type="button" class="btn btn-danger">Danger</button>
-                        <button type="button" class="btn btn-warning">Warning</button>
-                        <button type="button" class="btn btn-info">Info</button>
-                        <button type="button" class="btn btn-light">Light</button>
-                        <button type="button" class="btn btn-dark">Dark</button>
-                        <button type="button" class="btn btn-link">Link</button>
                     </div>
                 </div>
             </div>

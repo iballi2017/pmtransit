@@ -8,7 +8,7 @@ include_once '../includes/header.php'; ?>
 
     <section class="title-component-wrapper py-5">
         <div class="container">
-            <h2 class="page-title">About Us</h2>
+            <h1 class="page-title">About Us</h1>
 
         </div>
     </section>
@@ -22,12 +22,13 @@ include_once '../includes/header.php'; ?>
                     <h2 class="text-center p-4">Learn more about who we are</h2>
 
                     <p class="text-center">
-                        wdwd;oks;kdwk;wodxk;wk wkwldmwldijwijdwij widjwldjwlidj wiljdwlij wijdiwj lwijdliwjd ijwidj djw
-                        ;jdewdnwldnw.nwdlwdw;ijdwijewd wjwjdw;jmwlij wlwdwildjwoijdwdjw;odj wjdijw;dj d;jw;odijw
-                        jdiwjdiwj sscsilcslic iscsjcsicjsij j iwejdwidjwidjwlidjwldjwiljdwidjwidjw ijwdliwjdwildjwidjwid
-                        iwjdiwjdwidjwidjw ijdwiwdjwidwjdiwojdwoidj wjdijwdiwjdij widjwidjwidjwi wdjwidjwij iwdiwjdijwidj
-                        iwjidwjdiliwdijwdowjdoj wojdwpodjwpojd owjdojwopdjwpojdwpoj wojdwpojdwojdpwodj owjdwojdwodjw
-                        pojwodjwdowjdwodjwdjwodj ojwodjwodjwpdj ojdpwjdwojd wodjwojdwojd wojdpwjdwpj wjodwpdow
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dignissimos recusandae, incidunt
+                        repellendus numquam totam ut non vel veniam ipsam nulla quo fugiat quidem ea reprehenderit porro
+                        magnam laborum aspernatur natus asperiores sint, eius eum expedita soluta! Illum, ullam iste.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iure eligendi omnis, itaque qui
+                        voluptas voluptate, quas earum animi repudiandae minima! Ipsam ipsum earum aut autem,
+                        necessitatibus ea atque excepturi, quae fuga natus nihil pariatur iusto? Obcaecati nam accusamus
+                        sit?
                     </p>
 
                 </div>
@@ -73,7 +74,7 @@ include_once '../includes/header.php'; ?>
     <section class="problem-then-contact-us">
         <div class="container py-4 text-white problem-then-contact-us-inner">
             <h4>Subscribe to get more update and alert on our platform</h4>
-            <a href="#" class="btn btn-success btn-lg">Book now</a>
+            <a href="#" class="btn custom-form-btn btn-lg">Book now</a>
         </div>
     </section>
 

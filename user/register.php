@@ -67,7 +67,7 @@ include_once '../includes/header.php'; ?>
 
                                 <p>By signing up I agree to the terms and conditions</p>
 
-                                <button type="submit" class="btn btn-success form-btn px-4">Sign Up</button>
+                                <button type="submit" class="btn custom-form-btn px-4">Sign Up</button>
                                 <p class="mt-2"><a href="#" style="color: #4D9F45;">Click here to Login</a></p>
 
                             </form>

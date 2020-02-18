@@ -21,38 +21,37 @@ include_once '../includes/header.php'; ?>
                     <div class="card my-5">
                         <div class="card-body p-5">
 
-                        <div class="card-body p-3">
+                            <div class="card-body p-3">
 
 
-                            <form>
+                                <form>
 
-                                <h4 class="text-center"><strong>Login to your account</strong></h4>
+                                    <h4 class="text-center"><strong>Login to your account</strong></h4>
 
-                                <div class="form-group">
-                                    <label for="inputEmail"></label>
-                                    <input type="email" class="form-control" id="inputEmail"
-                                        placeholder="Email">
-                                </div>
-
-                              
-
-                                <div class="my-4 text-center">
-                                    <button type="submit" class="btn form-btn px-2 mt-2">Send Link</button>
-                                </div>
-
-                               
-
-                                <p  class="my-4 text-center"> 
-                                    <a href="#" style="color: #A8B622; ">Click here to go back to login</a>
-                                </p>
+                                    <div class="form-group">
+                                        <label for="inputEmail"></label>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                    </div>
 
 
-                            </form> 
+
+                                    <div class="my-4 text-center">
+                                        <button type="submit" class="btn custom-form-btn px-2 mt-2">Send Link</button>
+                                    </div>
+
+
+
+                                    <p class="my-4 text-center">
+                                        <a href="#" style="color: #A8B622; ">Click here to go back to login</a>
+                                    </p>
+
+
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 

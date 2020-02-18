@@ -2,22 +2,26 @@
 <?php include_once '../includes/header.php'; ?>
 
 
+
 <main class="step-2-fill-information-page mb-5">
 
-    <section class="bg-primary">
+    <section class="select-bus-page-header">
         <div class="container text-white">
             <h2>DESTINATIONS TO AND FRO</h2>
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active text-white" href="#">Select Date</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Select Seat</a>
-                </li>
-            </ul>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <span>Selected Date: 20/02/2020</span>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <span>Number of Seats: 3</span>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="bg-warning py-2">
+        <div class="select-bus-condition-wrapper py-2">
             <div class="container">
                 <p class="m-0 text-white">N.B: You can only fill in 2 seats for force personnel</p>
             </div>
@@ -41,8 +45,7 @@
                                     <h5 class="mb-0"
                                         style="display: flex; justify-content: space-between; align-items: center">
                                         <span>Passenger #1</span>
-                                        <button
-                                            class="btn btn-link passenger-accordion-btn passenger-accordion-minus-btn"
+                                        <button class="btn passenger-accordion-btn passenger-accordion-minus-btn"
                                             type="button" data-toggle="collapse" data-target="#collapseOne"
                                             aria-expanded="true" aria-controls="collapseOne">
                                         </button>
@@ -87,7 +90,7 @@
                                         style="display: flex; justify-content: space-between; align-items: center">
                                         <span>Passenger #2</span>
                                         <button
-                                            class="btn btn-link collapsed passenger-accordion-btn passenger-accordion-plus-btn"
+                                            class="btn collapsed passenger-accordion-btn passenger-accordion-plus-btn"
                                             type="button" data-toggle="collapse" data-target="#collapseTwo"
                                             aria-expanded="false" aria-controls="collapseTwo">
                                         </button>
@@ -129,8 +132,8 @@
 
                         <div class="form-button-container"
                             style="display: flex; justify-content: space-between; align-items: center">
-                            <button class="btn px-4" type="button" onclick="goBack()">Back</button>
-                            <button class="btn" type="submit">Continue</button>
+                            <button class="btn custom-form-btn px-4" type="button" onclick="goBack()">Back</button>
+                            <button class="btn custom-form-btn" type="submit">Continue</button>
                         </div>
                     </form>
                 </div>
