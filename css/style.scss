@@ -324,7 +324,6 @@ navbar brand logo modified for screen-readers
   &:hover,
   &:focus {
     color: $greenishColor;
-    color: $white !important;
   }
   &.active {
     background-color: $greenishLightColor !important;
@@ -344,6 +343,10 @@ navbar brand logo modified for screen-readers
   background-color: $greyishColor;
   box-shadow: 2px 5px 5px rgba(56, 53, 53, 0.3);
   color: $greenishLightColor;
+  &:hover,
+  &:focus {
+    color: $greenishColor;
+  }
 
   &.active {
     background-color: $greenishLightColor !important;

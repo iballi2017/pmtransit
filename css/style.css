@@ -268,8 +268,7 @@ navbar brand logo modified for screen-readers
   padding-top: 1em;
   padding-bottom: 1em; }
   .hero-tab-nav-links:hover, .hero-tab-nav-links:focus {
-    color: #4d9f45;
-    color: #ffffff !important; }
+    color: #4d9f45; }
   .hero-tab-nav-links.active {
     background-color: #a8b622 !important;
     color: #ffffff; }
@@ -284,6 +283,8 @@ navbar brand logo modified for screen-readers
   background-color: #dedede;
   box-shadow: 2px 5px 5px rgba(56, 53, 53, 0.3);
   color: #a8b622; }
+  .book-a-seat-tab-nav-links:hover, .book-a-seat-tab-nav-links:focus {
+    color: #4d9f45; }
   .book-a-seat-tab-nav-links.active {
     background-color: #a8b622 !important;
     box-shadow: unset !important; }

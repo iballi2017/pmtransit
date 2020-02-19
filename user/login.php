@@ -22,6 +22,21 @@ include_once '../includes/header.php'; ?>
 
                         <div class="card-body p-5">
                             <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="Password">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+
+
+
+                            <form>
 
                                 <h4 class="text-center"><strong>Login to your account</strong></h4>
 
