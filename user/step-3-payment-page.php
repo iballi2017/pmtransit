@@ -5,7 +5,7 @@
 <main class="step-3-payment-page mb-5">
 
     <section class="select-bus-page-header">
-        <div class="container text-white">
+        <div class="container text-white py-2">
             <h2>DESTINATIONS TO AND FRO</h2>
 
             <div class="container">
@@ -27,6 +27,31 @@
         </div>
 
     </section>
+
+
+
+    <section class="container my-5" style="position: relative; margin-bottom: 20em;">
+
+        <div class="step-indicators">
+            <span class="step" id="step-1-indicator">
+                <p>1</p>
+            </span>
+
+            <span class="step" id="step-2-indicator">
+                <p>2</p>
+            </span>
+
+            <span class="step finish" id="step-3-indicator">
+                <p>3</p>
+            </span>
+            <div class="line-through-steps"></div>
+        </div>
+    </section>
+
+    <div>
+        <h3 class="text-center">Contacts details and Payment method</h3>
+    </div>
+
 
 
 

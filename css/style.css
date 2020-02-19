@@ -429,7 +429,7 @@ input.invalid {
   height: 5px;
   position: absolute;
   top: 50%;
-  width: 90%;
+  width: 100%;
   margin: 0 auto; }
 
 .step-indicators {
@@ -439,6 +439,10 @@ input.invalid {
   justify-content: space-between;
   position: relative; }
 
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #00327a; }
+
 .custom-control-label::after {
   background-image: url(../images/seat.svg) !important; }
 
@@ -446,9 +450,6 @@ input.invalid {
   color: #fff;
   border-color: #4d9f45;
   background-color: #4d9f45; }
-
-.custom-checkbox .custom-control-input {
-  background-color: red; }
 
 .step-2-fill-information-page .passenger-accordion-plus-btn::before,
 .step-2-fill-information-page .passenger-accordion-minus-btn::before {

@@ -21,49 +21,32 @@ include_once '../includes/header.php'; ?>
                     <div class="card my-5">
 
                         <div class="card-body p-5">
-                            <form>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="exampleInputEmail1"
-                                        aria-describedby="emailHelp" placeholder="Enter email">
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" id="exampleInputPassword1"
-                                        placeholder="Password">
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
-
-
-
-
+                            <h4 class="text-center mb-5"><strong>Login to your account</strong></h4>
                             <form>
 
-                                <h4 class="text-center"><strong>Login to your account</strong></h4>
 
                                 <div class="form-group">
-                                    <label for="inputEmail/phonenumber"></label>
                                     <input type="email" class="form-control" id="inputEmail"
                                         placeholder="Email / Phone number">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="inputPassword"></label>
                                     <input type="password" class="form-control" id="inputPassword"
                                         placeholder="Password">
                                 </div>
 
-                                <div class="form-group">
-                                    <button type="submit" class="btn custom-form-btn px-3">Login</button>
-                                </div>
-                                <p class="">
+                                <!-- <div class="form-group"> -->
+                                <button type="submit" class="btn custom-form-btn px-3">Login</button>
+                                <!-- </div> -->
+                                <div class="">
                                     Dont have account? Click <a href="#">here</a> to
                                     register
-                                </p>
-                                <p><a href="#"> Forgot password?</a></p>
+                                </div>
+                                <div><a href="#"> Forgot password?</a></div>
 
-                                <p>
+                                <div>
                                     <a href="#">Continue without login</a>
-                                </p>
+                                </div>
                             </form>
                         </div>
                     </div>

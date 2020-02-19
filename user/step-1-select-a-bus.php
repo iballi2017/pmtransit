@@ -5,7 +5,7 @@
 <main class="step-1-select-a-bus-page mb-5">
 
     <section class="select-bus-page-header">
-        <div class="container text-white">
+        <div class="container text-white py-2">
             <h2>DESTINATIONS TO AND FRO</h2>
 
             <div class="container">
@@ -31,10 +31,31 @@
 
 
 
-    <section>
+    <section class="container my-5" style="position: relative; margin-bottom: 20em;">
+
+        <div class="step-indicators">
+            <span class="step finish" id="step-1-indicator">
+                <p>1</p>
+            </span>
+
+            <span class="step" id="step-2-indicator">
+                <p>2</p>
+            </span>
+
+            <span class="step" id="step-3-indicator">
+                <p>3</p>
+            </span>
+            <div class="line-through-steps"></div>
+        </div>
+    </section>
+
+    <div>
+        <h3 class="text-center">Choose a bus</h3>
+    </div>
+    <section class="bg-white">
         <div class="container">
 
-            <table class="table bg-light">
+            <table class="table">
                 <tbody>
                     <tr>
                         <div class="container">
@@ -55,7 +76,7 @@
                                         <p>Price<br />#19000</p>
                                     </div>
                                     <div class="col-6 col-md-2">
-                                        <button class="btn btn-sm form-btn" type="button" data-toggle="collapse"
+                                        <button class="btn custom-form-btn" type="button" data-toggle="collapse"
                                             data-target="#collapseExample" aria-expanded="false"
                                             aria-controls="collapseExample">
                                             Select
@@ -109,7 +130,7 @@
                             <input type="checkbox" class="custom-control-input" id="seat-9-checkbox">
                             <label class="custom-control-label" for="seat-9-checkbox">Seat 9</label>
                         </div>
-                        <button type="submit" class="btn btn-sm form-btn px-3">Continue</button>
+                        <button type="submit" class="btn custom-form-btn px-3">Continue</button>
 
                     </form>
                     <!-- Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
