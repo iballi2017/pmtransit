@@ -167,7 +167,7 @@ navbar brand logo modified for screen-readers
 .mobile-menu-icon {
   color: #4d9f45 !important; }
   .mobile-menu-icon:active {
-    color: black !important;
+    color: #a8b622 !important;
     border: 1px solid #4d9f45 !important; }
 
 .custom-nav-btn {
@@ -267,8 +267,9 @@ navbar brand logo modified for screen-readers
   border-radius: 0 !important;
   padding-top: 1em;
   padding-bottom: 1em; }
-  .hero-tab-nav-links:hover {
-    color: #4d9f45; }
+  .hero-tab-nav-links:hover, .hero-tab-nav-links:focus {
+    color: #4d9f45;
+    color: #ffffff !important; }
   .hero-tab-nav-links.active {
     background-color: #a8b622 !important;
     color: #ffffff; }
