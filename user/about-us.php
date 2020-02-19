@@ -19,17 +19,34 @@ include_once '../includes/header.php'; ?>
         <div class="container">
             <div class="row">
                 <div class="about">
-                    <h2 class="text-center p-4">Learn more about who we are</h2>
+                    <h2 class="text-center p-4">Learn More About Who We Are</h2>
 
-                    <p class="text-center">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit dignissimos recusandae, incidunt
-                        repellendus numquam totam ut non vel veniam ipsam nulla quo fugiat quidem ea reprehenderit porro
-                        magnam laborum aspernatur natus asperiores sint, eius eum expedita soluta! Illum, ullam iste.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iure eligendi omnis, itaque qui
-                        voluptas voluptate, quas earum animi repudiandae minima! Ipsam ipsum earum aut autem,
-                        necessitatibus ea atque excepturi, quae fuga natus nihil pariatur iusto? Obcaecati nam accusamus
-                        sit?
-                    </p>
+                    <div class="text-center">
+                        <p>
+                            PM Transit is an innovative transport company in Nigeria that allows for a seamless process
+                            of
+                            booking your trip and making payments online. We commenced our operations in March 2020 with
+                            very affordable pricing, yet safe and comfortable option for commuters and operate solely
+                            within
+                            the Lagos to Abuja routes.</p>
+                        <p>
+                            The safety and welfare of our esteemed customers is of utmost importance, hence why we drive
+                            within a certain speed limit while also providing a great travel experience for our
+                            customers.</p>
+
+                        <h3> Mission</h3>
+                        <p>
+                            Our mission is to provide very affordable, safe and convenient means of transportation to
+                            commuters.</p>
+
+                        <h3>Vision</h3>
+                        <p>
+                            Our vision is to be a top innovative transport company at an affordable price, world class
+                            safety measures in place to ensure the safety and comfort of our customers and great
+                            customer
+                            service.</p>
+
+                    </div>
 
                 </div>
 
