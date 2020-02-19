@@ -63,8 +63,8 @@
                             Up</a>
                     </li>
                     <li class="nav-item">
-                        <buton class="btn btn-sm btn-custom-green-outline nav-link custom-nav-btn px-3 mx-2">Logout
-                        </buton>
+                        <button class="btn btn-sm btn-custom-green-outline nav-link custom-nav-btn px-3 mx-2">Logout
+                        </button>
                     </li>
                 </ul>
             </div>
