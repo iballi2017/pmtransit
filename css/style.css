@@ -84,7 +84,7 @@ input[type="tel"],
 input[type="date"],
 input[type="time"],
 textarea {
-  color: #132666;
+  font-family: "Roboto", sans-serif;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
@@ -126,7 +126,7 @@ textarea {
   background-color: #a8b622;
   color: #ffffff; }
   .custom-form-btn:hover {
-    background-color: #a8b622 !important;
+    background-color: #c3d03f !important;
     color: #ffffff; }
   .custom-form-btn:focus {
     border: 1px solid #a8b622;
@@ -267,9 +267,17 @@ navbar brand logo modified for screen-readers
   border-radius: 0 !important;
   padding-top: 1em;
   padding-bottom: 1em; }
+  .hero-tab-nav-links:hover {
+    color: #4d9f45; }
   .hero-tab-nav-links.active {
     background-color: #a8b622 !important;
     color: #ffffff; }
+
+.curve-left-top {
+  border-radius: 10px 0 0 0 !important; }
+
+.curve-right-top {
+  border-radius: 0 10px 0 0 !important; }
 
 .book-a-seat-tab-nav-links {
   background-color: #dedede;

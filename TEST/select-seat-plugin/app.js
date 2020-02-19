@@ -1,8 +1,8 @@
 // Settings:
 
 var settings = {
-    rows: 4,
-    cols: 5,
+    rows: 3,
+    cols: 4,
     rowCssPrefix: 'row-',
     colCssPrefix: 'col-',
     seatWidth: 35,
@@ -37,7 +37,7 @@ var init = function (reservedSeat) {
 //init();
 
 //Case II: If already booked
-var bookedSeats = [5, 10];
+var bookedSeats = [5, 10, 9];
 init(bookedSeats);
 
 

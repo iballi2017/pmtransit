@@ -1,5 +1,3 @@
-
-
 <footer class="pt-5">
 
     <div class="container">
@@ -25,7 +23,7 @@
                         <a href="#" class="footer-links">About us</a>
                     </li>
                     <li>
-                        <a href="#" class="footer-links">FAQ</a>
+                        <a href="../user/faq.php" class="footer-links">FAQ</a>
                     </li>
                     <li>
                         <a href="#" class="footer-links">Privacy policy</a>

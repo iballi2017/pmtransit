@@ -15,17 +15,18 @@ include_once '../includes/header.php'; ?>
 
     <div class="container hero-booking-form my-5">
         <div class="row">
-            <div class="col-12 col-md-8 offset-md-2">
+            <div class="col-12 col-md-10 offset-md-1">
                 <ul class="nav row nav-pills col-block hero-main-nav-pills no-gutters" id="pills-tab" role="tablist">
                     <li class="nav-item col-12 col-md-6">
-                        <a class="nav-link active text-center hero-tab-nav-links btn-block" id="pills-seat-booking-tab"
-                            data-toggle="pill" href="#pills-seat-booking" role="tab" aria-controls="pills-seat-booking"
-                            aria-selected="true">BOOK A SEAT</a>
+                        <a class="nav-link active text-center hero-tab-nav-links curve-left-top btn-block"
+                            id="pills-seat-booking-tab" data-toggle="pill" href="#pills-seat-booking" role="tab"
+                            aria-controls="pills-seat-booking" aria-selected="true"
+                            style="border-radius: 10px 0px 0px 0px">BOOK A SEAT</a>
                     </li>
                     <li class="nav-item col-12 col-md-6">
-                        <a class="nav-link text-center hero-tab-nav-links" id="pills-bus-hire-tab" data-toggle="pill"
-                            href="#pills-bus-hire" role="tab" aria-controls="pills-bus-hire" aria-selected="false">HIRE
-                            A BUS</a>
+                        <a class="nav-link text-center hero-tab-nav-links curve-right-top" id="pills-bus-hire-tab"
+                            data-toggle="pill" href="#pills-bus-hire" role="tab" aria-controls="pills-bus-hire"
+                            aria-selected="false">HIRE A BUS</a>
                     </li>
                 </ul>
                 <div class="tab-content hero-tab-main-content-wrapper p-3 mb-5 shadow" id="pills-tabContent">
@@ -45,7 +46,7 @@ include_once '../includes/header.php'; ?>
                                         <li class="nav-item">
                                             <a class="nav-link book-a-seat-tab-nav-links ml-1" id="pills-roundAbout-tab"
                                                 data-toggle="pill" href="#pills-roundAbout" role="tab"
-                                                aria-controls="pills-roundAbout" aria-selected="false">Roundabout</a>
+                                                aria-controls="pills-roundAbout" aria-selected="false">Round trip</a>
                                         </li>
                                     </ul>
                                     <div class="tab-content text-left" id="pills-tabContent">
@@ -57,17 +58,15 @@ include_once '../includes/header.php'; ?>
                                                 <div class="row">
 
                                                     <div class="form-group col-12 col-md-6">
-                                                        <label for="travellingFrom">Travelling From</label>
                                                         <select id="travellingFrom" class="form-control">
-                                                            <option selected>Choose...</option>
+                                                            <option selected>Travelling From</option>
                                                             <option>...</option>
                                                         </select>
                                                     </div>
 
                                                     <div class="form-group col-12 col-md-6">
-                                                        <label for="travellingTo">Travelling To</label>
                                                         <select id="travellingTo" class="form-control">
-                                                            <option selected>Choose...</option>
+                                                            <option selected>Travelling To</option>
                                                             <option>...</option>
                                                         </select>
                                                     </div>
@@ -76,68 +75,87 @@ include_once '../includes/header.php'; ?>
 
                                                 <div class="row">
 
-                                                    <div class="form-group col-12 col-md-6">
-                                                        <label for="departureDate">Departure
-                                                            Date</label>
-                                                        <input type="date" class="form-control" id="departureDate">
+                                                    <div class="form-group col-12 col-md-2">
+                                                        <input type="text" class="form-control" id="departureDate"
+                                                            placeholder="Departure Date">
                                                     </div>
 
-                                                    <div class="form-group col-12 col-md-6">
-                                                        <label for="seat">Seat</label>
-                                                        <select id="seat" class="form-control">
-                                                            <option selected>Choose...</option>
-                                                            <option>...</option>
-                                                        </select>
+                                                    <div class="form-group col-12 col-md-4">
+                                                        <div class="row">
+                                                            <label for="numberOfPassengers"
+                                                                class="col-md-7 col-form-label">No of
+                                                                passengers</label>
+                                                            <div class="col-md-5">
+                                                                <select id="numberOfPassengers" class="form-control">
+                                                                    <option selected>Choose...</option>
+                                                                    <option>...</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
                                                     </div>
+
+                                                    <div class="col-6 col-md-6">
+                                                        <button type="submit" class="btn custom-form-btn">BOOK
+                                                            NOW</button></div>
 
                                                 </div>
-                                                <button type="submit" class="btn">BOOK
-                                                    NOW</button>
                                             </form>
 
                                         </div>
                                         <div class="tab-pane fade" id="pills-roundAbout" role="tabpanel"
                                             aria-labelledby="pills-roundAbout-tab">
 
-                                            <!-- round-about form -->
+                                            <!-- round trip form -->
                                             <form>
                                                 <div class="row">
 
                                                     <div class="form-group col-12 col-md-6">
-                                                        <label for="travellingFrom">Travelling From</label>
                                                         <select id="travellingFrom" class="form-control">
-                                                            <option selected>Choose...</option>
+                                                            <option selected>Travelling From</option>
                                                             <option>...</option>
                                                         </select>
                                                     </div>
 
                                                     <div class="form-group col-12 col-md-6">
-                                                        <label for="travellingTo">Travelling To</label>
                                                         <select id="travellingTo" class="form-control">
-                                                            <option selected>Choose...</option>
+                                                            <option selected>Travelling To</option>
                                                             <option>...</option>
                                                         </select>
                                                     </div>
+
                                                 </div>
 
                                                 <div class="row">
 
-                                                    <div class="form-group col-12 col-md-6">
-                                                        <label for="departureDate">Departure
-                                                            Date</label>
-                                                        <input type="date" class="form-control" id="departureDate">
+                                                    <div class="form-group col-6 col-md-3">
+                                                        <input type="text" class="form-control" id="departureDate"
+                                                            placeholder="Departure Date">
                                                     </div>
 
-                                                    <div class="form-group col-12 col-md-6">
-                                                        <label for="seat">Seat</label>
-                                                        <select id="seat" class="form-control">
-                                                            <option selected>Choose...</option>
-                                                            <option>...</option>
-                                                        </select>
+                                                    <div class="form-group col-6 col-md-3">
+                                                        <input type="text" class="form-control" id="returnDate"
+                                                            placeholder="Return Date">
                                                     </div>
+
+                                                    <div class="form-group col-12 col-md-4">
+                                                        <div class="row">
+                                                            <label for="numberOfPassengers"
+                                                                class="col-md-7 col-form-label">No of
+                                                                passengers</label>
+                                                            <div class="col-md-5">
+                                                                <select id="numberOfPassengers" class="form-control">
+                                                                    <option selected>Choose...</option>
+                                                                    <option>...</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-6 col-md-2">
+                                                        <button type="submit" class="btn custom-form-btn btn-block">BOOK
+                                                            NOW</button></div>
+
                                                 </div>
-                                                <button type="submit" class="btn btn-secondary">BOOK
-                                                    NOW</button>
                                             </form>
                                         </div>
                                     </div>
@@ -148,37 +166,39 @@ include_once '../includes/header.php'; ?>
                     <div class="tab-pane fade text-left" id="pills-bus-hire" role="tabpanel"
                         aria-labelledby="pills-bus-hire-tab">
 
-                        <!-- round-about form -->
+                        <!-- hire-a-bus form -->
                         <form>
                             <div class="row">
 
-                                <div class="form-group col">
-                                    <label for="travellingFrom">Travelling From</label>
+                                <div class="form-group col-12 col-md-6">
                                     <select id="travellingFrom" class="form-control">
-                                        <option selected>Abuja</option>
-                                        <option>Lagos</option>
+                                        <option selected>Travelling From</option>
+                                        <option>...</option>
                                     </select>
                                 </div>
 
-                                <div class="form-group col">
-                                    <label for="travellingTo">Travelling To</label>
+                                <div class="form-group col-12 col-md-6">
                                     <select id="travellingTo" class="form-control">
-                                        <option selected>Lagos</option>
-                                        <option>Abuja</option>
+                                        <option selected>Travelling To</option>
+                                        <option>...</option>
                                     </select>
                                 </div>
+
                             </div>
 
                             <div class="row">
 
-                                <div class="form-group col">
-                                    <label for="departureDate">Departure
-                                        Date</label>
-                                    <input type="date" class="form-control" id="departureDate">
+                                <div class="form-group col-6 col-md-3">
+                                    <input type="text" class="form-control" id="departureDate"
+                                        placeholder="Departure Date">
                                 </div>
+
+                                <div class="col-6 col-md-2 offset-md-1">
+                                    <button type="submit" class="btn custom-form-btn btn-block">BOOK
+                                        NOW</button>
+                                </div>
+
                             </div>
-                            <button type="submit" class="btn btn-success">BOOK
-                                NOW</button>
                         </form>
                     </div>
                 </div>
