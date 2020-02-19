@@ -92,13 +92,12 @@
                     <ul class="nav row nav-pills col-block hero-main-nav-pills no-gutters" id="pills-tab"
                         role="tablist">
                         <li class="nav-item col-12 col-md-6">
-                            <a class="nav-link active text-center hero-tab-nav-links btn-block"
+                            <a class="nav-link active text-center hero-tab-nav-links curve-left-top btn-block"
                                 id="pills-seat-booking-tab" data-toggle="pill" href="#pills-seat-booking" role="tab"
-                                aria-controls="pills-seat-booking" aria-selected="true"
-                                style="border-radius: 10px 0px 0px 0px">BOOK A SEAT</a>
+                                aria-controls="pills-seat-booking" aria-selected="true">BOOK A SEAT</a>
                         </li>
                         <li class="nav-item col-12 col-md-6">
-                            <a class="nav-link text-center hero-tab-nav-links" id="pills-bus-hire-tab"
+                            <a class="nav-link text-center hero-tab-nav-links curve-right-top" id="pills-bus-hire-tab"
                                 data-toggle="pill" href="#pills-bus-hire" role="tab" aria-controls="pills-bus-hire"
                                 aria-selected="false">HIRE A BUS</a>
                         </li>
@@ -378,7 +377,7 @@
                             <a href="#" class="footer-links">About us</a>
                         </li>
                         <li>
-                            <a href="#" class="footer-links">FAQ</a>
+                            <a href="./user/faq.php" class="footer-links">FAQ</a>
                         </li>
                         <li>
                             <a href="#" class="footer-links">Privacy policy</a>

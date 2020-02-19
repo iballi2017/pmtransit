@@ -6,9 +6,11 @@
 $OneViewport: 100vh;
 $greenishColor: #4d9f45;
 $greenishLightColor: #a8b622;
+$greenishLightColor2: #c3d03f;
 $greyishColor: #dedede;
 $white: #ffffff;
 $lightBlue: #2589bd;
+$mainFontfamily: "Roboto", sans-serif;
 
 body {
   margin: 0;
@@ -103,7 +105,7 @@ input[type="tel"],
 input[type="date"],
 input[type="time"],
 textarea {
-  color: rgb(19, 38, 102);
+  font-family: $mainFontfamily;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
@@ -132,7 +134,7 @@ textarea {
   background-color: $greenishLightColor;
   color: $white;
   &:hover {
-    background-color: $greenishLightColor !important;
+    background-color: $greenishLightColor2 !important;
     color: $white;
   }
   &:focus {
@@ -319,10 +321,21 @@ navbar brand logo modified for screen-readers
   border-radius: 0 !important;
   padding-top: 1em;
   padding-bottom: 1em;
+  &:hover {
+    color: $greenishColor;
+  }
   &.active {
     background-color: $greenishLightColor !important;
     color: $white;
   }
+}
+
+.curve-left-top {
+  border-radius: 10px 0 0 0 !important;
+}
+
+.curve-right-top {
+  border-radius: 0 10px 0 0 !important;
 }
 
 .book-a-seat-tab-nav-links {
