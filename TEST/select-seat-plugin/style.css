@@ -1,0 +1,54 @@
+#holder {
+  height: 200px;
+  width: 550px;
+  background-color: #f5f5f5;
+  border: 1px solid #a4a4a4;
+  margin-left: 10px;
+}
+#place {
+  position: relative;
+  margin: 7px;
+}
+#place a {
+  font-size: 0.6em;
+}
+#place li {
+  list-style: none outside none;
+  position: absolute;
+}
+#place li:hover {
+  background-color: yellow;
+}
+#place .seat {
+  /* background: url('images/available_seat_img.gif') no-repeat scroll 0 0
+    transparent; */
+  background: url('images/available-seat.png') no-repeat scroll 0 0 transparent;
+  background-size: 100% 100%;
+  height: 40px;
+  width: 33px;
+  font-weight: 600;
+  /* display: block; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#place .selectedSeat {
+  /* background-image: url('images/booked_seat_img.gif'); */
+  background-image: url('images/occupied-seat.png');
+}
+#place .selectingSeat {
+  /* background-image: url('images/selected_seat_img.gif'); */
+  background-image: url('images/selected-seat.png');
+}
+#place .row-3,
+#place .row-4 {
+  margin-top: 10px;
+}
+#seatDescription li {
+  verticle-align: middle;
+  list-style: none outside none;
+  padding-left: 35px;
+  height: 35px;
+  float: left;
+}
