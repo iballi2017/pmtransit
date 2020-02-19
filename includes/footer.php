@@ -2,16 +2,22 @@
 
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-6 col-md-3">
                 <ul>
                     <li>
                         <a class="navbar-brand" href="#">
                             <h2>Brand</h2>
                         </a>
                     </li>
+                    <li>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio blanditiis soluta
+                            eligendi iure sunt pariatur accusamus veniam, unde non est?
+                        </p>
+                    </li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-6 col-md-3">
                 <ul>
                     <li>
                         <h6 class="footer-column-title">QUICK LINKS</h6>
@@ -23,7 +29,7 @@
                         <a href="#" class="footer-links">About us</a>
                     </li>
                     <li>
-                        <a href="../user/faq.php" class="footer-links">FAQ</a>
+                        <a href="./user/faq.php" class="footer-links">FAQ</a>
                     </li>
                     <li>
                         <a href="#" class="footer-links">Privacy policy</a>
@@ -33,7 +39,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-6 col-md-3">
                 <ul>
                     <li>
                         <h6 class="footer-column-title">CONTACT</h6>
@@ -56,17 +62,21 @@
                 </ul>
             </div>
 
-            <div class="col">
+            <div class="col-6 col-md-3">
                 <ul>
-                    <li>SOCIAL MEDIA</li>
+                    <li class="footer-column-title">SOCIAL MEDIA</li>
                     <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="#">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="#">Instagram</a>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f social-icon"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram social-icon"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter social-icon"></i></a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>

@@ -2,7 +2,7 @@
 include_once '../includes/header.php'; ?>
 
 
-<main class="about-us-container mb-5">
+<main class="about-us-container">
 
 
 
@@ -91,7 +91,7 @@ include_once '../includes/header.php'; ?>
     <section class="problem-then-contact-us">
         <div class="container py-4 text-white problem-then-contact-us-inner">
             <h4>Subscribe to get more update and alert on our platform</h4>
-            <a href="#" class="btn custom-form-btn btn-lg">Book now</a>
+            <a href="./contact-us.php" class="btn custom-form-btn btn-lg">Book now</a>
         </div>
     </section>
 

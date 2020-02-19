@@ -339,7 +339,7 @@
         <section class="problem-then-contact-us">
             <div class="container py-4 text-white problem-then-contact-us-inner">
                 <h4>Having Any Problem Booking? Let Us Know ! ! !</h4>
-                <a href="#" class="btn custom-form-btn btn-lg">CONTACT US</a>
+                <a href="./user/contact-us.php" class="btn custom-form-btn btn-lg">CONTACT US</a>
             </div>
         </section>
 

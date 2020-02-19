@@ -81,15 +81,10 @@ input[type="submit"] {
   font-size: 0.75rem;
   line-height: 1;
   padding: 0.6em 1em 0.4em;
-
-  &:hover {
-  }
-
   &:focus,
   &:active {
     outline: 0;
     inset: 0;
-    // box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
     box-shadow: unset;
   }
 }
@@ -158,13 +153,6 @@ textarea {
   &:hover {
     color: $white;
   }
-  //   &:focus {
-  //     border: 1px solid $greenishColor;
-  //     color: $white;
-  //     outline: 0;
-  //     inset: 0;
-  //     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 255, 255, 0.6);
-  //   }
 }
 
 /*...........................
@@ -549,13 +537,6 @@ input.invalid {
   position: relative;
 }
 
-/* #step-1-indicator::after {
-  content: "sahABJCB";
-  display: block;
-  bottom: 0;
-  border: 1px solid red;
-} */
-
 // vehicle-selection page
 .vehicle-selection-container {
 }
@@ -577,12 +558,6 @@ input.invalid {
 
 .custom-checkbox .custom-control-input {
   background-color: red;
-}
-
-.custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-  // background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' heig…M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e);
-  // background: green !important;
-  // background-image: url(../images/seat.svg) !important;
 }
 
 // step-2-fill-information-page

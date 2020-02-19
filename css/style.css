@@ -439,12 +439,6 @@ input.invalid {
   justify-content: space-between;
   position: relative; }
 
-/* #step-1-indicator::after {
-  content: "sahABJCB";
-  display: block;
-  bottom: 0;
-  border: 1px solid red;
-} */
 .custom-control-label::after {
   background-image: url(../images/seat.svg) !important; }
 
