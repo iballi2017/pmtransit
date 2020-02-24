@@ -33,11 +33,11 @@
     <section class="container my-5" style="position: relative; margin-bottom: 20em;">
 
         <div class="step-indicators">
-            <span class="step" id="step-1-indicator">
+            <span class="step finish" id="step-1-indicator">
                 <p>1</p>
             </span>
 
-            <span class="step" id="step-2-indicator">
+            <span class="step finish" id="step-2-indicator">
                 <p>2</p>
             </span>
 
