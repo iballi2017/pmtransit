@@ -319,14 +319,6 @@ navbar brand logo modified for screen-readers
   }
 }
 
-.curve-left-top {
-  border-radius: 10px 0 0 0 !important;
-}
-
-.curve-right-top {
-  border-radius: 0 10px 0 0 !important;
-}
-
 .book-a-seat-tab-nav-links {
   background-color: $greyishColor;
   box-shadow: 2px 5px 5px rgba(56, 53, 53, 0.3);
@@ -588,6 +580,16 @@ input.invalid {
       inset: 0;
       box-shadow: unset;
     }
+  }
+}
+
+@media (min-width: 765px) {
+  .curve-left-top {
+    border-radius: 10px 0 0 0 !important;
+  }
+
+  .curve-right-top {
+    border-radius: 0 10px 0 0 !important;
   }
 }
 
