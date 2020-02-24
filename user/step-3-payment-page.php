@@ -45,6 +45,7 @@
                 <p>3</p>
             </span>
             <div class="line-through-steps"></div>
+            <div class="line-through-steps" style="width: 100%; background-color: #00327a"></div>
         </div>
     </section>
 
