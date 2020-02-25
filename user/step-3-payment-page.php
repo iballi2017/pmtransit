@@ -108,7 +108,7 @@
 
                                 <!-- ////////////////////////////////////////////// -->
 
-                                <div class="accordion" id="accordionExample">
+                                <!-- <div class="accordion" id="accordionExample">
                                     <div class="card border-0">
                                         <div class="card-header bg-white" id="headingOne">
                                             <div class="custom-control custom-radio collapsed" data-toggle="collapse"
@@ -184,6 +184,56 @@
                                                         </tr>
                                                     </tbody>
                                                 </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+
+
+
+                                <!-- select options from Options -->
+
+                                <div class="row">
+                                    <div class="col-12 col-lg-6">
+
+                                        <h3 class="text-center">Option 1</h3>
+
+                                        <div class="card m-3 border-0 shadow">
+                                            <img src="../images/Transfer.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Account Number: 0123456789</h5>
+                                                <h5 class="card-title">Account Name: Postmailexpress Nigeria</h5>
+                                                <h5 class="card-title">Bank GTBank: 0123456789</h5>
+                                                <p class="card-text">Transfer into the provided account number, and text
+                                                    your transfer details
+                                                    to
+                                                    08012345678</p>
+
+                                                <button type="submit" class="btn px-5 green-button btn-outline-success"
+                                                    style="width: 100%" onclick="goBack()">Complete</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-6">
+
+                                        <h3 class="text-center">Option 3</h3>
+
+                                        <div class="card m-3 border-0 shadow">
+                                            <img src="../images/card.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="amountOption3">Amount</label>
+                                                        <input type="number" class="form-control" id="amountOption3"
+                                                            aria-describedby="amountOption3Help">
+                                                    </div>
+
+                                                    <button type="submit"
+                                                        class="btn px-5 green-button btn-outline-success"
+                                                        style="width: 100%">PAY</button>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
