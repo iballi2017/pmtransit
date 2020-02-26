@@ -4,14 +4,6 @@ include_once '../includes/header.php'; ?>
 
 <main class="vehicle-selection-container mb-5">
 
-
-
-    <!-- <section class="title-component-wrapper py-5">
-        <div class="container">
-            <h1 class="page-title">About</h1>
-        </div>
-    </section> -->
-
     <section class="bg-primary">
         <div class="container text-white">
             <h2>DESTINATIONS TO AND FRO</h2>

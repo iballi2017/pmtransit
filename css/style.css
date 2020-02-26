@@ -303,7 +303,7 @@ navbar brand logo modified for screen-readers
   padding: 0; }
   .why-choose-us-list li {
     text-align: center;
-    flex-basis: 24%; }
+    flex-basis: 46%; }
 
 /*...............How it works................*/
 .how-it-works-inner {
@@ -462,12 +462,21 @@ input.invalid {
   inset: 0;
   box-shadow: unset; }
 
+.faq-accordion-button {
+  color: #4d9f45; }
+  .faq-accordion-button:hover {
+    color: #a8b622; }
+
 @media (min-width: 765px) {
   .curve-left-top {
     border-radius: 10px 0 0 0 !important; }
 
   .curve-right-top {
-    border-radius: 0 10px 0 0 !important; } }
+    border-radius: 0 10px 0 0 !important; }
+
+  .why-choose-us-list li {
+    text-align: center;
+    flex-basis: 24%; } }
 @media (max-width: 425px) {
   .step {
     height: 40px;

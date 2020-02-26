@@ -1,7 +1,4 @@
-
-
-<?php
-include_once '../includes/header.php'; ?>
+<?php include_once '../includes/header.php'; ?>
 
 
 <main class="login-page mb-5">
@@ -9,7 +6,7 @@ include_once '../includes/header.php'; ?>
 
     <section class="title-component-wrapper py-5">
         <div class="container">
-            <h1 class="page-title">Forgot Password</h1>
+            <h3 class="page-title">Forgot Password</h3>
         </div>
     </section>
 
@@ -23,38 +20,38 @@ include_once '../includes/header.php'; ?>
                     <div class="card my-5">
                         <div class="card-body p-5">
 
-                        <div class="card-body p-2">
+                            <div class="card-body p-2">
 
 
-                            <form>
+                                <form>
 
-                                <h4 class="text-center"><strong>PMT forgot password</strong></h4>
+                                    <h4 class="text-center"><strong>PMT forgot password</strong></h4>
 
-                                <div class="form-group">
-                                    <label for="newPassword"></label>
-                                    <input type="password" class="form-control" id="newPassword"
-                                        placeholder="Enter New Password">
-                                </div>
+                                    <div class="form-group">
+                                        <label for="newPassword"></label>
+                                        <input type="password" class="form-control" id="newPassword"
+                                            placeholder="Enter New Password">
+                                    </div>
 
-                                <div class="form-group">
-                                    <label for="confirmPassword"></label>
-                                    <input type="password" class="form-control" id="confirmPassword"
-                                        placeholder="Confirm Password">
-                                </div>
+                                    <div class="form-group">
+                                        <label for="confirmPassword"></label>
+                                        <input type="password" class="form-control" id="confirmPassword"
+                                            placeholder="Confirm Password">
+                                    </div>
 
-                                <div class="my-4 text-center"> 
-                                    <button type="submit" class="btn form-btn px-5">Submit</button>
-                                </div>
-
-                               
+                                    <div class="my-4 text-center">
+                                        <button type="submit" class="btn form-btn px-5">Submit</button>
+                                    </div>
 
 
-                            </form> 
+
+
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
 
 

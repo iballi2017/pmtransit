@@ -8,22 +8,22 @@ include_once '../includes/header.php'; ?>
 
     <section class="title-component-wrapper py-5">
         <div class="container">
-            <h1 class="page-title">About Us</h1>
+            <h3 class="page-title">About Us</h3>
 
         </div>
     </section>
 
 
 
-    <section>
+    <section class="bg-white">
         <div class="container">
             <div class="row">
-                <div class="about">
-                    <h2 class="text-center p-4">Learn More About Who We Are</h2>
+                <div class="col">
 
-                    <div class="text-center">
+                    <div class="lead mt-4">
                         <p>
-                            PM Transit is an innovative transport company in Nigeria that allows for a seamless process
+                            <span class="display-4">PM Transit</span> is an innovative transport company
+                            in Nigeria that allows for a seamless process
                             of
                             booking your trip and making payments online. We commenced our operations in March 2020 with
                             very affordable pricing, yet safe and comfortable option for commuters and operate solely
@@ -33,28 +33,42 @@ include_once '../includes/header.php'; ?>
                             The safety and welfare of our esteemed customers is of utmost importance, hence why we drive
                             within a certain speed limit while also providing a great travel experience for our
                             customers.</p>
-
-                        <h3> Mission</h3>
-                        <p>
-                            Our mission is to provide very affordable, safe and convenient means of transportation to
-                            commuters.</p>
-
-                        <h3>Vision</h3>
-                        <p>
-                            Our vision is to be a top innovative transport company at an affordable price, world class
-                            safety measures in place to ensure the safety and comfort of our customers and great
-                            customer
-                            service.</p>
-
                     </div>
 
-                </div>
 
+                    <div class="container my-5">
+
+
+                        <div class="row">
+                            <div class="col">
+
+                                <h4 class="display-4 text-center bg-light">Vision</h4>
+
+                                <p>
+                                    <span class="display-4"> O</span>ur vision is to be a top innovative transport
+                                    company at an affordable price, world
+                                    class
+                                    safety measures in place to ensure the safety and comfort of our customers and great
+                                    customer
+                                    service.</p>
+                            </div>
+
+                            <div class="col">
+                                <h5 class="display-4 text-center bg-light">Mission</h5>
+                                <p>
+                                    <span class="display-4"> O</span>ur mission is to provide very affordable, safe and
+                                    convenient means of
+                                    transportation to
+                                    commuters.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </div>
     </section>
-
-
 
     <section class="why-choose-us my-5">
         <div class="container">

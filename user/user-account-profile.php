@@ -8,7 +8,7 @@ include_once '../includes/header.php'; ?>
 
     <section class="title-component-wrapper py-5">
         <div class="container">
-            <h1 class="page-title">My Account</h1>
+            <h3 class="page-title">My Account</h1>
         </div>
     </section>
 
@@ -16,9 +16,9 @@ include_once '../includes/header.php'; ?>
         <div class="container">
             <div class="row">
                 <div class="col bg-white p-3 mt-3">
-                    <h4>Welcome, Akinola Oluwatobi</h4>
+                    <h5>Welcome, Akinola Oluwatobi</h5>
                     <p>07065194485</p>
-                    <p>5.789@mail.com</p>
+                    <p>admin@gmail.com</p>
                 </div>
             </div>
             <div class="row">

@@ -7,7 +7,7 @@ include_once '../includes/header.php'; ?>
 
     <section class="title-component-wrapper py-5">
         <div class="container">
-            <h1 class="page-title">Login</h1>
+            <h3 class="page-title">Login</h3>
         </div>
     </section>
 

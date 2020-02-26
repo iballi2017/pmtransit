@@ -6,7 +6,7 @@ include_once '../includes/header.php'; ?>
 
     <section class="title-component-wrapper py-5">
         <div class="container">
-            <h1 class="page-title">Contact Us</h1>
+            <h3 class="page-title">Contact Us</h3>
 
         </div>
     </section>
@@ -16,7 +16,7 @@ include_once '../includes/header.php'; ?>
             <div class="row">
                 <div class="col">
                     <h3>Send us a message</h3>
-                    <div class="card">
+                    <div class="card mb-4">
                         <div class="card-body">
                             <form>
                                 <div class="form-group">

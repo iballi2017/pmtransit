@@ -358,7 +358,7 @@ navbar brand logo modified for screen-readers
 
   li {
     text-align: center;
-    flex-basis: 24%;
+    flex-basis: 46%;
   }
 }
 
@@ -583,6 +583,13 @@ input.invalid {
   }
 }
 
+.faq-accordion-button {
+  color: $greenishColor;
+  &:hover {
+    color: $greenishLightColor;
+  }
+}
+
 @media (min-width: 765px) {
   .curve-left-top {
     border-radius: 10px 0 0 0 !important;
@@ -590,6 +597,13 @@ input.invalid {
 
   .curve-right-top {
     border-radius: 0 10px 0 0 !important;
+  }
+
+  .why-choose-us-list {
+    li {
+      text-align: center;
+      flex-basis: 24%;
+    }
   }
 }
 
