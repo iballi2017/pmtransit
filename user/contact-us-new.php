@@ -55,3 +55,12 @@ include_once '../includes/header.php'; ?>
     </section>
 
 </main>
+
+
+
+
+
+
+<?php include_once '../includes/footer.php';
+
+?>
