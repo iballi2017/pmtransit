@@ -11,7 +11,6 @@ include_once '../includes/header.php'; ?>
         </div>
     </section>
 
-    <section class="contact-us"></section>
     <div class="container">
         <div class="row  ">
             <div class="col-12 col-md-6 pt-2 ">
