@@ -54,17 +54,17 @@
                                 class="fas fa-user"></i> My Account</a>
                     </li>
                     <li class="nav-item">
-                        <a class="btn btn-sm btn-custom-green-outline nav-link custom-nav-btn px-3 mx-2"
+                        <a class="btn btn-sm btn-custom-green-outline custom-nav-btn px-3 mx-md-2"
                             href="./user/login.php">Sign
                             In</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="btn btn-sm btn-custom-green-outline nav-link custom-nav-btn px-3 mx-2"
+                    <li class="nav-item mt-2 mt-md-0">
+                        <a class="btn btn-sm btn-custom-green-outline custom-nav-btn px-3 mx-md-2"
                             href="./user/register.php">Sign
                             Up</a>
                     </li>
                     <li class="nav-item">
-                        <button class="btn btn-sm btn-custom-green-outline nav-link custom-nav-btn px-3 mx-2">Logout
+                        <button class="btn btn-sm btn-custom-green-outline custom-nav-btn px-3 mx-md-2">Logout
                         </button>
                     </li>
                 </ul>
