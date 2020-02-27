@@ -50,7 +50,8 @@
                         <a class="nav-link custom-nav-link" href="./user/contact-us.php">Contact Us</a>
                     </li>
                     <li class="nav-item main-animate-nav-item">
-                        <a class="nav-link custom-nav-link" href="./user/user-account-profile.php">Account</a>
+                        <a class="nav-link custom-nav-link" href="./user/user-account-profile.php"><i
+                                class="fas fa-user"></i> My Account</a>
                     </li>
                     <li class="nav-item">
                         <a class="btn btn-sm btn-custom-green-outline nav-link custom-nav-btn px-3 mx-2"
